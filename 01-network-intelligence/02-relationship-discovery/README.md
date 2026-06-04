@@ -6,7 +6,7 @@ Transforming isolated entities into connected intelligence networks.
 
 ---
 
-# Executive Summary
+## Executive Summary
 
 Financial institutions often possess large volumes of customer, counterparty, payment, trade, and corporate information but lack visibility of the relationships connecting those entities across the enterprise.
 
@@ -20,11 +20,13 @@ This capability transforms isolated customer records into actionable intelligenc
 
 ---
 
-# Visual Intelligence Pattern
+## Visual Intelligence Pattern
 
 ![NI002 Relationship Discovery Intelligence Pattern](../../images/network-intelligence-patterns/NI001_entity-resolution/02-relationship-discovery/NI002_Relationship_Discovery_Intelligence_Pattern.png)
 
-### Pattern Objective
+---
+
+## Pattern Objective
 
 Relationship Discovery transforms trusted entities into connected intelligence networks.
 
@@ -49,21 +51,23 @@ The resulting intelligence graph becomes the foundation for:
 
 ---
 
-# Capability Dependencies
+## Capability Dependencies
 
-## Upstream Dependency
+This capability depends on:
 
-- NI001 – Entity Resolution Intelligence Pattern
-
-## Downstream Capabilities Enabled
-
-- NI003 – Beneficial Ownership Intelligence Pattern
-- NI004 – Network Risk Assessment Intelligence Pattern
-- NI005 – Investigation Workflow Intelligence Pattern
+- [NI001 – Entity Resolution Intelligence Pattern](../01-entity-resolution/README.md)
 
 ---
 
-# Relationship Discovery Lifecycle
+## Downstream Capabilities Enabled
+
+- [NI003 – Beneficial Ownership Intelligence Pattern](../03-beneficial-ownership/README.md)
+- [NI004 – Network Risk Assessment Intelligence Pattern](../04-network-risk-assessment/README.md)
+- [NI005 – Investigation Workflow Intelligence Pattern](../05-investigation-workflows/README.md)
+
+---
+
+## Relationship Discovery Lifecycle
 
 ```mermaid
 flowchart LR
@@ -81,7 +85,6 @@ C3 --> D
 C4 --> D
 
 D --> E[Network Construction]
-
 E --> F[Network Intelligence Graph]
 
 F --> G1[Beneficial Ownership Analysis]
@@ -92,9 +95,9 @@ F --> G4[AI Investigator Copilot]
 
 ---
 
-# How Relationship Discovery Works
+## How Relationship Discovery Works
 
-## Stage 1 – Trusted Entity Population
+### Stage 1 – Trusted Entity Population
 
 Relationship Discovery begins with a population of trusted entities generated through Entity Resolution.
 
@@ -111,11 +114,11 @@ Each entity possesses a trusted identity and unique identifier.
 
 ---
 
-## Stage 2 – Relationship Identification
+### Stage 2 – Relationship Identification
 
 The platform identifies relationships between entities using multiple evidence sources.
 
-### Direct Relationships
+#### Direct Relationships
 
 - Ownership
 - Directorship
@@ -123,20 +126,20 @@ The platform identifies relationships between entities using multiple evidence s
 - Account Control
 - Authorised Signatories
 
-### Contact Relationships
+#### Contact Relationships
 
 - Shared Address
 - Shared Phone Number
 - Shared Email Address
 
-### Financial Relationships
+#### Financial Relationships
 
 - Payment Flows
 - Account Transfers
 - Trade Transactions
 - Correspondent Banking Activity
 
-### Behavioural Relationships
+#### Behavioural Relationships
 
 - Shared Devices
 - Shared IP Addresses
@@ -145,7 +148,7 @@ The platform identifies relationships between entities using multiple evidence s
 
 ---
 
-## Stage 3 – Relationship Scoring
+### Stage 3 – Relationship Scoring
 
 Relationships are evaluated and assigned confidence scores based on evidence quality.
 
@@ -162,7 +165,7 @@ The result is a trusted intelligence network.
 
 ---
 
-## Stage 4 – Network Construction
+### Stage 4 – Network Construction
 
 Entities and relationships are assembled into a graph network.
 
@@ -178,12 +181,10 @@ The resulting graph becomes the foundation for advanced analytics.
 
 ---
 
-# Intelligence Produced
-
-Relationship Discovery generates:
+## Intelligence Produced
 
 | Intelligence Output | Description |
-|----------|-------------|
+|---------------------|-------------|
 | Relationship Graphs | Visual representation of connected entities |
 | Network Intelligence Nodes | Trusted entities connected through relationships |
 | Relationship Scores | Confidence scoring for discovered links |
@@ -197,9 +198,9 @@ Relationship Discovery generates:
 
 ---
 
-# How Investigators Use It
+## How Investigators Use It
 
-## Investigation Example
+### Investigation Example
 
 An investigator begins with a single company subject.
 
@@ -216,16 +217,16 @@ Within minutes the investigator can identify:
 - Additional entities requiring review
 - Hidden ownership structures
 - High-risk network participants
-- Potential mule accounts
+- Previously unknown associates
 - Organised criminal networks
 
 The investigation expands from a single entity into a complete intelligence network.
 
 ---
 
-# Business Benefits
+## Business Benefits
 
-## Investigation Benefits
+### Investigation Benefits
 
 - Faster investigations
 - Improved lead generation
@@ -233,24 +234,24 @@ The investigation expands from a single entity into a complete intelligence netw
 - Better understanding of criminal structures
 - Improved case quality
 
-## Risk Benefits
+### Risk Benefits
 
 - Improved detection of hidden risk
 - Greater visibility of control structures
 - Enhanced network analytics
 - Better identification of organised activity
 
-## Regulatory Benefits
+### Regulatory Benefits
 
 - Stronger SAR investigations
 - Improved AML controls
 - Better auditability
-- Enhanced explainability
-- More effective regulatory reporting
+- More explainable network intelligence
+- Stronger regulatory outcomes
 
 ---
 
-# Relationship Discovery within the Network Intelligence Journey
+## Network Intelligence Journey
 
 ```text
 Entity Resolution
@@ -266,28 +267,24 @@ Investigation Workflows
 AI Investigator Copilot
 ```
 
-Relationship Discovery is the capability that transforms trusted identities into trusted intelligence networks.
-
 ---
 
-# Key Message
+## Key Message
 
 Entity Resolution answers:
 
-**"Who is this entity?"**
+> "Who is this entity?"
 
 Relationship Discovery answers:
 
-**"Who are they connected to?"**
+> "Who are they connected to?"
 
 Together they establish the foundation of network intelligence and graph-based financial crime investigations.
 
 ---
 
-# Navigation
+## Navigation
 
-⬅️ Previous: [NI001 – Entity Resolution Intelligence Pattern](../01-entity-resolution/README.md)
+⬅️ **Previous:** [Entity Resolution](../01-entity-resolution/README.md)
 
-➡️ Next: [NI003 – Beneficial Ownership Intelligence Pattern](../03-beneficial-ownership/README.md)
-
----
+➡️ **Next:** [Beneficial Ownership](../03-beneficial-ownership/README.md)
