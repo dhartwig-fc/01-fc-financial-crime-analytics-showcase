@@ -22,7 +22,7 @@ This capability transforms relationship networks into ownership intelligence.
 
 ## Visual Intelligence Pattern
 
-![NI003 Beneficial Ownership Intelligence Pattern](../../images/network-intelligence-patterns/fc-01-financial-crime-analytics-showcase/images/network-intelligence-patterns/NI001_entity-resolution/03-beneficial-ownership/NI003_Beneficial_Ownership_Intelligence_Pattern.png)
+![NI003 Beneficial Ownership Intelligence Pattern](../../images/network-intelligence-patterns/NI001_entity-resolution/03-beneficial-ownership/NI003_Beneficial_Ownership_Intelligence_Pattern.png)
 
 ---
 
