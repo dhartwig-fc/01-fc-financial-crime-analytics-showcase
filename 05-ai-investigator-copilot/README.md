@@ -1,3 +1,178 @@
+# NI006 – AI Investigator Copilot Intelligence Pattern
+
+> Network Intelligence Capability 06
+
+Accelerating investigator decision-making with AI and network intelligence.
+
+---
+
+## Executive Summary
+
+Financial crime investigators often work across fragmented systems, large case files, complex ownership structures, network graphs, alerts, transactions, and regulatory documentation.
+
+Even when high-quality intelligence exists, investigators still spend significant time manually interpreting data, reconstructing relationships, explaining risk, preparing narratives, and deciding what action to take next.
+
+AI Investigator Copilot operationalises the intelligence produced by Entity Resolution, Relationship Discovery, Beneficial Ownership Intelligence, Network Risk Assessment, and Investigation Workflow Intelligence.
+
+The Copilot consumes trusted entity intelligence, relationship intelligence, ownership intelligence, risk intelligence, and case intelligence to generate investigation summaries, risk explanations, recommended actions, case narratives, and regulatory-ready outputs.
+
+This capability transforms network intelligence into guided investigation support, enabling investigators to make faster, more consistent, and better-evidenced decisions.
+
+---
+
+## Visual Intelligence Pattern
+
+![NI006 AI Investigator Copilot Intelligence Pattern](../../images/network-intelligence-patterns/NI001_entity-resolution/06-ai-investigator-copilot/NI006_AI_Investigator_Copilot_Intelligence_Pattern.png)
+
+---
+
+## Intelligence Question
+
+> How can investigators accelerate decision-making using AI and network intelligence?
+
+AI Investigator Copilot helps investigators understand cases, explain risk, explore networks, generate narratives, and determine the next best investigative action.
+
+This capability transforms case intelligence into AI-assisted investigation intelligence.
+
+---
+
+## Pattern Objective
+
+AI Investigator Copilot acts as an investigation orchestration layer over the full Network Intelligence stack.
+
+The capability enables:
+
+- Investigation Summarisation
+- Risk Explanation
+- Investigation Guidance
+- Network Exploration
+- Narrative Generation
+- Evidence Synthesis
+- Hypothesis Testing
+- Regulatory Drafting
+- Investigator Decision Support
+
+The objective is to reduce investigation effort while improving decision quality, consistency, explainability, and regulatory defensibility.
+
+---
+
+## Capability Dependencies
+
+This capability depends on:
+
+- [NI001 – Entity Resolution Intelligence Pattern](../01-entity-resolution/README.md)
+- [NI002 – Relationship Discovery Intelligence Pattern](../02-relationship-discovery/README.md)
+- [NI003 – Beneficial Ownership Intelligence Pattern](../03-beneficial-ownership/README.md)
+- [NI004 – Network Risk Assessment Intelligence Pattern](../04-network-risk-assessment/README.md)
+- [NI005 – Investigation Workflow Intelligence Pattern](../05-investigation-workflows/README.md)
+
+---
+
+## Downstream Capabilities Enabled
+
+- Future Case Automation
+- Decision Management
+- Regulatory Reporting Automation
+- Autonomous Investigation Agents
+
+---
+
+## AI Investigator Copilot Lifecycle
+
+~~~mermaid
+flowchart LR
+
+A[Case Intelligence Model]
+--> B[Context Assembly]
+
+B --> C[AI Reasoning]
+
+C --> D[Investigation Summary]
+
+C --> E[Risk Explanation]
+
+C --> F[Recommended Actions]
+
+C --> G[Narrative Generation]
+
+C --> H[Investigator Review]
+
+H --> I[Case Outcome]
+
+I --> J[Feedback and Learning]
+~~~
+
+---
+
+## How AI Investigator Copilot Works
+
+### Stage 1 – Case Context Assembly
+
+The Copilot assembles investigation context from the Network Intelligence stack.
+
+Inputs include:
+
+- Trusted Entity Profiles
+- Relationship Graphs
+- Ownership Structures
+- Network Risk Scores
+- Risk Drivers
+- Alerts
+- Investigation Findings
+- Case History
+- Evidence Sources
+
+Output:
+
+- Case Intelligence Context
+
+The result is a structured investigation context that the Copilot can reason over.
+
+---
+
+### Stage 2 – Investigation Summarisation
+
+The Copilot generates a concise investigation overview.
+
+Examples include:
+
+- Case Summary
+- Risk Snapshot
+- Key Entities
+- Key Relationships
+- Ownership Summary
+- Priority Risk Drivers
+- Recommended Focus Areas
+
+Output:
+
+- Investigation Summary
+
+This helps investigators understand the case quickly.
+
+---
+
+### Stage 3 – Risk Explanation
+
+The Copilot explains why a case, entity, network, or ownership structure is high risk.
+
+Examples include:
+
+- Network Risk Drivers
+- Sanctions Exposure
+- PEP Exposure
+- Ownership Complexity
+- High-Risk Counterparties
+- Behavioural Indicators
+- Transaction Patterns
+- Geographic Risk
+
+Output:
+
+- Explainable Risk Narrative
+
+This supports investigator understanding, auditability, and regulatory defensibility.
+
 ### Stage 4 – Investigation Guidance
 
 The Copilot recommends next best investigative actions.
@@ -153,6 +328,67 @@ The Copilot recommends:
 
 Instead of manually reconstructing the case, the investigator focuses on judgement, evidence review, and final decision-making.
 
+## Architecture Considerations
+
+AI Investigator Copilot is enabled by the Network Intelligence architecture established across Entity Resolution, Relationship Discovery, Beneficial Ownership Intelligence, Network Risk Assessment, and Investigation Workflow Intelligence.
+
+Rather than reasoning over raw data, the Copilot consumes a structured Case Intelligence Model containing trusted entity intelligence, relationship intelligence, ownership intelligence, risk intelligence, investigation findings, and workflow context.
+
+This architecture enables explainable AI, consistent investigation outcomes, reduced hallucination risk, and regulatory defensibility.
+
+Detailed implementation patterns are documented separately within the AI Investigator Copilot Reference Architecture.
+
+## Business Benefits
+
+### Investigation Benefits
+
+- Faster case understanding
+- Reduced manual investigation effort
+- Better investigator productivity
+- Improved decision consistency
+- More focused evidence review
+
+### Operational Benefits
+
+- Reduced case handling time
+- Improved workflow throughput
+- Better investigator capacity
+- More consistent case documentation
+- Lower operational friction
+
+### Risk Benefits
+
+- Better understanding of network risk
+- Stronger risk explanations
+- Improved identification of hidden exposure
+- Better ownership and relationship interpretation
+- More effective escalation decisions
+
+### Regulatory Benefits
+
+- Stronger audit trails
+- Better documented decision rationale
+- Improved SAR and EDD quality
+- More explainable investigation outcomes
+- Greater regulatory defensibility
+
+---
+
+## Network Intelligence Journey
+
+~~~text
+Entity Resolution
+        ↓
+Relationship Discovery
+        ↓
+Beneficial Ownership Analysis
+        ↓
+Network Risk Assessment
+        ↓
+Investigation Workflows
+        ↓
+AI Investigator Copilot
+~~~
 ---
 
 ## Navigation
