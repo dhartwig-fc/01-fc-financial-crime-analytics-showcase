@@ -1,316 +1,138 @@
-# Relationship Discovery
+# Entity Resolution
 
-> Network Intelligence Capability 02
+> Network Intelligence Capability 01
 
-Transforming isolated entities into connected intelligence networks.
+Transforming fragmented customer records into trusted investigative identities.
 
 ---
 
 ## Executive Summary
 
-Financial institutions often possess large volumes of customer, counterparty, payment, trade, and corporate information but lack visibility of the relationships connecting those entities across the enterprise.
+Financial institutions frequently maintain multiple representations of the same customer, organisation, director, or beneficial owner across disparate systems.
 
-Even when individual customers and organisations have been successfully resolved into trusted identities, investigators frequently struggle to understand how those entities interact with each other.
+This fragmentation creates investigative blind spots, weakens risk assessments, and limits the effectiveness of network analytics.
 
-Relationship Discovery establishes the intelligence layer that connects entities through ownership, control, communication, transaction, geographic, and behavioural relationships.
+Entity Resolution establishes a trusted intelligence layer by identifying, matching, and consolidating records that represent the same real-world entity.
 
-By exposing these hidden connections, investigators can identify criminal networks, organised structures, intermediaries, beneficial ownership chains, and broader financial crime ecosystems that would otherwise remain undetected.
-
-This capability transforms isolated customer records into actionable intelligence networks.
+This capability forms the foundation of Network Intelligence and enables downstream capabilities including Relationship Discovery, Beneficial Ownership Analysis, Network Risk Assessment, Investigation Workflows, and AI-Enabled Investigation.
 
 ---
 
 ## Intelligence Outcome
 
-Relationship Discovery enables investigators to:
+Entity Resolution creates a trusted investigative identity by consolidating fragmented records that represent the same individual, organisation, or counterparty.
 
-- Identify hidden relationships between entities
-- Discover previously unknown associates
-- Reveal criminal and commercial networks
-- Understand ownership and control structures
-- Detect indirect connections between subjects
-- Expand investigations beyond known entities
-- Support network-based risk assessments
-- Generate intelligence leads for further investigation
+### Primary Outputs
+
+- Golden Entity Records
+- Consolidated Customer Profiles
+- Entity Match Confidence Scores
+- Network Intelligence Nodes
+- Investigation-Ready Intelligence
+- Trusted Inputs for AI Investigation
 
 ---
 
 ## Visual Intelligence Pattern
 
-![NI002 Relationship Discovery Intelligence Pattern](../../images/network-intelligence-patterns/NI002_relationship-discovery/NI002_Relationship_Discovery_Intelligence_Pattern.png)
-
-Relationship Discovery transforms trusted entities into connected intelligence networks.
-
-Where Entity Resolution answers:
-
-> "Who is this entity?"
-
-Relationship Discovery answers:
-
-> "Who are they connected to?"
+![NI001 Entity Resolution Intelligence Pattern](../../images/network-intelligence-patterns/NI001_entity-resolution/NI001_Entity_Resolution_Intelligence_Pattern.png)
 
 ---
 
-# 1. Why Does The Problem Exist?
+## Business Value
 
-## Business Problem
-
-Even after customer records have been successfully resolved into trusted identities, investigators frequently struggle to understand:
-
-- Who controls an organisation
-- Which entities are connected
-- Whether hidden networks exist
-- How money moves between participants
-- Which counterparties operate together
-- Whether criminal structures are present
-
-As a result:
-
-- Criminal structures remain hidden
-- Investigations become manual
-- Network risks are missed
-- High-risk entities remain undiscovered
-- Analysts review information in isolation
+- Reduces duplicate investigations
+- Improves customer and counterparty visibility
+- Strengthens financial crime risk assessment
+- Enables relationship discovery and network analytics
+- Improves investigation quality and consistency
+- Provides trusted data for AI-enabled workflows
 
 ---
-
-# 2. How Does Relationship Discovery Work?
 
 ## Analytical Stages
 
-### Stage 1 – Trusted Entity Population
+### Stage 1 – Data Ingestion
 
-Relationship Discovery begins with a population of trusted entities generated through Entity Resolution.
+Entity data is collected from source systems including:
+
+- Core Banking
+- Payments
+- Trade Finance
+- KYC Systems
+- Customer Onboarding
+- Corporate Registries
+- Sanctions / PEP Lists
+- Open Source Intelligence
+
+### Stage 2 – Standardisation
+
+Input records are standardised to improve comparability.
 
 Examples include:
 
-- Customers
-- Companies
-- Directors
-- Beneficial Owners
-- Accounts
-- Counterparties
+- Name normalisation
+- Address standardisation
+- Identifier formatting
+- Date of birth standardisation
+- Country and jurisdiction alignment
 
-Each entity possesses a trusted identity and unique identifier.
+### Stage 3 – Matching
 
----
+Records are compared using deterministic, probabilistic, fuzzy, and rules-based matching techniques.
 
-### Stage 2 – Relationship Identification
+Matching signals include:
 
-The platform identifies relationships between entities using multiple evidence sources.
+- Name similarity
+- Address similarity
+- Registration numbers
+- Tax identifiers
+- Date of birth
+- Phone numbers
+- Email addresses
+- External registry identifiers
 
-#### Direct Relationships
+### Stage 4 – Confidence Scoring
 
-- Ownership
-- Directorship
-- Shareholding
-- Account Control
-- Authorised Signatories
+Potential matches are assigned confidence scores based on the strength and quality of available evidence.
 
-#### Contact Relationships
+### Stage 5 – Golden Entity Creation
 
-- Shared Address
-- Shared Phone Number
-- Shared Email Address
-
-#### Financial Relationships
-
-- Payment Flows
-- Account Transfers
-- Trade Transactions
-- Correspondent Banking Activity
-
-#### Behavioural Relationships
-
-- Shared Devices
-- Shared IP Addresses
-- Shared Access Patterns
-- Common Transaction Behaviour
+Confirmed matches are consolidated into a trusted golden entity record.
 
 ---
 
-### Stage 3 – Relationship Scoring
-
-Relationships are evaluated and assigned confidence scores based on evidence quality.
-
-Factors include:
-
-- Evidence strength
-- Data quality
-- Relationship frequency
-- Relationship duration
-- Source reliability
-- Number of corroborating indicators
-
-The result is a trusted intelligence network.
-
----
-
-### Stage 4 – Network Construction
-
-Entities and relationships are assembled into a graph network.
-
-The network contains:
-
-- Nodes
-- Edges
-- Relationship Types
-- Relationship Strength
-- Investigation Context
-
-The resulting graph becomes the foundation for advanced analytics.
-
----
-
-# 3. What Intelligence Is Produced?
-
-Relationship Discovery generates:
-
-| Intelligence Output | Description |
-|---------------------|-------------|
-| Relationship Graphs | Visual representation of connected entities |
-| Network Intelligence Nodes | Trusted entities connected through relationships |
-| Relationship Scores | Confidence scoring for discovered links |
-| Network Clusters | Groups of connected entities |
-| Connected Counterparties | Known and previously unknown associates |
-| Hidden Associate Intelligence | Newly discovered network participants |
-| Ownership Structures | Connected ownership and control relationships |
-| Investigation Leads | New investigative opportunities |
-| Network Risk Inputs | Inputs for risk scoring and prioritisation |
-| Beneficial Ownership Inputs | Foundation for ownership analytics |
-
----
-
-# 4. How Do Investigators Use It?
-
-## Investigation Example
-
-An investigator begins with a single company subject.
-
-Relationship Discovery reveals:
-
-- Common directors
-- Shared addresses
-- Shared bank accounts
-- Connected counterparties
-- Historical payment relationships
-
-Within minutes the investigator can identify:
-
-- Additional entities requiring review
-- Hidden ownership structures
-- High-risk network participants
-- Potential mule accounts
-- Organised criminal networks
-
-The investigation expands from a single entity into a complete intelligence network.
-
----
-
-# 5. Business Value
-
-## Investigation Benefits
-
-- Faster investigations
-- Improved lead generation
-- Reduced manual analysis
-- Better understanding of criminal structures
-- Improved case quality
-
-## Risk Benefits
-
-- Improved detection of hidden risk
-- Greater visibility of control structures
-- Enhanced network analytics
-- Better identification of organised activity
-
-## Regulatory Benefits
-
-- Stronger SAR investigations
-- Improved AML controls
-- Better auditability
-- Enhanced explainability
-- More effective regulatory reporting
-
----
-
-# 6. Relationship Discovery Workflow
+## Entity Resolution Workflow
 
 ```mermaid
 flowchart LR
 
-A[Trusted Entity Population] --> B[Relationship Discovery]
+A[Source Records] --> B[Data Standardisation]
+B --> C[Entity Matching]
+C --> D[Confidence Scoring]
+D --> E[Golden Entity Record]
+E --> F[Network Intelligence Node]
 
-B --> C1[Ownership Relationships]
-B --> C2[Contact Relationships]
-B --> C3[Financial Relationships]
-B --> C4[Behavioural Relationships]
-
-C1 --> D[Relationship Scoring]
-C2 --> D
-C3 --> D
-C4 --> D
-
-D --> E[Network Construction]
-
-E --> F[Network Intelligence Graph]
-
-F --> G1[Beneficial Ownership Analysis]
-F --> G2[Network Risk Assessment]
-F --> G3[Investigation Workflows]
-F --> G4[AI Investigator Copilot]
+F --> G[Relationship Discovery]
+F --> H[Beneficial Ownership Analysis]
+F --> I[Network Risk Assessment]
+F --> J[Investigation Workflows]
 ```
 
 ---
 
-# 7. Capability Dependencies
-
-## Upstream Dependency
-
-- NI001 – Entity Resolution Intelligence Pattern
-
-## Downstream Capabilities Enabled
-
-- NI003 – Beneficial Ownership Intelligence Pattern
-- NI004 – Network Risk Assessment Intelligence Pattern
-- NI005 – Investigation Workflow Intelligence Pattern
-
----
-
-# 8. Network Intelligence Journey
-
-```text
-Entity Resolution
-        ↓
-Relationship Discovery
-        ↓
-Beneficial Ownership Analysis
-        ↓
-Network Risk Assessment
-        ↓
-Investigation Workflows
-        ↓
-AI Investigator Copilot
-```
-
----
-
-# Key Message
+## Key Message
 
 Entity Resolution answers:
 
 > "Who is this entity?"
 
-Relationship Discovery answers:
-
-> "Who are they connected to?"
-
-Together they establish the foundation of network intelligence and graph-based financial crime investigations.
+It creates the trusted identity layer required for every downstream Network Intelligence capability.
 
 ---
 
-# Navigation
+## Navigation
 
-⬅️ **Previous:** [Entity Resolution](../01-entity-resolution/README.md)
+⬅️ **Previous:** [Network Intelligence Overview](../README.md)
 
-➡️ **Next:** [Beneficial Ownership Analysis](../03-beneficial-ownership/README.md)
+➡️ **Next:** [Relationship Discovery](../02-relationship-discovery/README.md)
