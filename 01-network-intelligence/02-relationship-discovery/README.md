@@ -1,6 +1,6 @@
 # NI002 – Relationship Discovery Intelligence Pattern
 
-**Network Intelligence Capability 02**
+> Network Intelligence Capability 02
 
 Transforming isolated entities into connected intelligence networks.
 
