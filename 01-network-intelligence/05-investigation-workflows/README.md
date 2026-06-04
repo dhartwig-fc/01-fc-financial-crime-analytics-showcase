@@ -19,7 +19,7 @@ While network intelligence can identify risk, investigators still face significa
 - Resource constraints
 - Regulatory pressure
 
-Investigation Workflow Intelligence extends Entity Resolution, Relationship Discovery, Beneficial Ownership Intelligence, and Network Risk Assessment by transforming intelligence into prioritised investigative action.
+Investigation Workflow Intelligence operationalises network intelligence by transforming risk assessments into prioritised investigative actions, structured workflows, and documented case outcomes.
 
 The capability creates a structured workflow that automatically routes, prioritises, escalates, and manages investigations based on risk.
 
@@ -54,7 +54,7 @@ The capability enables:
 - Case Creation
 - Alert Triage
 - Investigation Prioritisation
-- Workflow Automation
+- Workflow Orchestration
 - Escalation Management
 - Investigator Guidance
 - Regulatory Documentation
@@ -205,7 +205,7 @@ Examples include:
 
 Output:
 
-- Case Decision Intelligence
+- Case Outcome Intelligence
 
 This converts findings into documented outcomes.
 
@@ -263,7 +263,7 @@ Instead of spending time managing workflows, investigators focus on evidence and
 - Better investigative prioritisation
 - Reduced manual triage
 - Improved investigator productivity
-- Stronger investigative outcomes
+- More consistent investigative outcomes
 
 ### Operational Benefits
 
@@ -325,10 +325,10 @@ Beneficial Ownership Intelligence answers:
 
 Network Risk Assessment answers:
 
-> "Which entities, networks, and ownership structures represent the greatest financial crime risk?"
+> "Which entities, networks, and ownership structures represent the highest priority financial crime risks?"
 
 Investigation Workflow Intelligence answers:
 
-> "What investigative actions should be prioritised next?"
+> "What investigative actions should be taken and prioritised?"
 
 Together these capabilities transform raw data into actionable investigation intelligence that supports financial crime operations, compliance, and regulatory outcomes.
