@@ -22,7 +22,7 @@ This capability transforms network intelligence into guided investigation suppor
 
 ## Visual Intelligence Pattern
 
-![NI006 AI Investigator Copilot Intelligence Pattern](./images/ai-investigator-copilot-patterns/06-ai-investigator-copilot/NI006_AI_Investigator_Copilot_Intelligence_Pattern.png)
+![NI006 AI Investigator Copilot Intelligence Pattern](/images/ai-investigator-copilot-patterns/06-ai-investigator-copilot/NI006_AI_Investigator_Copilot_Intelligence_Pattern.png)
 
 ---
 
