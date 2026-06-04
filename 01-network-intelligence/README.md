@@ -46,6 +46,22 @@ This showcase demonstrates:
 - Network Risk Assessment
 - Network Investigation Workflows
 
+## Navigate This Showcase
+
+Follow the investigation journey below:
+
+| Step | Capability | Description |
+|--------|------------|-------------|
+| 1 | [Entity Resolution](entity-resolution/) | Consolidate duplicate and fragmented records |
+| 2 | [Relationship Discovery](relationship-discovery/) | Identify relationships between entities |
+| 3 | [Beneficial Ownership](beneficial-ownership/) | Analyse ownership structures and controllers |
+| 4 | [Network Risk Assessment](network-risk-assessment/) | Evaluate network-wide risk exposure |
+| 5 | [Investigation Workflows](network-investigation-workflows/) | Apply findings to investigative decision making |
+
+Recommended reading order:
+
+Entity Resolution → Relationship Discovery → Beneficial Ownership → Network Risk Assessment → Investigation Workflow
+
 ---
 
 ## Investigation Workflow
