@@ -90,7 +90,7 @@ As a result, the same organisation may appear multiple times under slightly diff
 
 ## NI001 - Entity Resolution Intelligence Pattern
 
-![NI001 - Entity Resolution Intelligence Pattern](../../images/NI001_Entity_Resolution_Intelligence_Pattern.png)
+![NI001 - Entity Resolution Intelligence Pattern](../../images/network-intelligence-patterns/NI001_Entity_Resolution_Intelligence_Pattern.png)
 
 ### Example
 
