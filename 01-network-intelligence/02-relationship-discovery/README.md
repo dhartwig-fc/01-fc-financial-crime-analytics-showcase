@@ -57,7 +57,7 @@ The resulting intelligence graph becomes the foundation for:
 
 This capability depends on:
 
-- [NI001 – Entity Resolution Intelligence Pattern](../01-entity-resolution/README.md)
+![NI002 Relationship Discovery Intelligence Pattern](../../images/network-intelligence-patterns/NI001_entity-resolution/02-relationship-discovery/NI002_Relationship_Discovery_Intelligence_Pattern.png)
 
 ---
 
