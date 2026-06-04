@@ -26,19 +26,21 @@ This capability transforms isolated customer records into actionable intelligenc
 
 ---
 
+## Intelligence Question
+
+> Who are they connected to?
+
+Relationship Discovery identifies ownership, contact, financial and behavioural relationships between trusted entities.
+
+This capability transforms trusted entities into connected intelligence networks by exposing previously hidden connections across customers, counterparties, organisations and financial ecosystems.
+
+---
+
 ## Pattern Objective
 
-Relationship Discovery transforms trusted entities into connected intelligence networks.
+Relationship Discovery extends Entity Resolution by identifying how trusted entities connect to one another across ownership, contact, financial and behavioural dimensions.
 
-Where Entity Resolution answers:
-
-> "Who is this entity?"
-
-Relationship Discovery answers:
-
-> "Who are they connected to?"
-
-The capability identifies ownership structures, contact links, transactional relationships, behavioural connections, and hidden associates across customers, counterparties, organisations, and networks.
+The capability identifies ownership structures, contact links, transactional relationships, behavioural connections and hidden associates across customers, counterparties, organisations and networks.
 
 The resulting intelligence graph becomes the foundation for:
 
@@ -269,6 +271,14 @@ AI Investigator Copilot
 
 ---
 
+## Navigation
+
+⬅️ **Previous:** [Entity Resolution](../01-entity-resolution/README.md)
+
+➡️ **Next:** [Beneficial Ownership](../03-beneficial-ownership/README.md)
+
+---
+
 ## Key Message
 
 Entity Resolution answers:
@@ -280,11 +290,3 @@ Relationship Discovery answers:
 > "Who are they connected to?"
 
 Together they establish the foundation of network intelligence and graph-based financial crime investigations.
-
----
-
-## Navigation
-
-⬅️ **Previous:** [Entity Resolution](../01-entity-resolution/README.md)
-
-➡️ **Next:** [Beneficial Ownership](../03-beneficial-ownership/README.md)
