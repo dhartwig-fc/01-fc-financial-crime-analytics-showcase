@@ -186,7 +186,8 @@ Entity Resolution combines deterministic matching, probabilistic matching, confi
 
 ## NI001A - Entity Resolution Methodology
 
-![NI001A - Entity Resolution Methodology](../../images/NI001A_Entity_Resolution_Methodology.png)
+# NI001 – Entity Resolution Intelligence Pattern
+![NI001](../../images/network-intelligence-patterns/NI001_Entity_Resolution_Intelligence_Pattern.png)
 
 ## Analytical Stages
 
