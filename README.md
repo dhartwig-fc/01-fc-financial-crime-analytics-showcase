@@ -178,6 +178,14 @@ This repository is actively being developed as a showcase of Financial Crime Ana
 
 Additional capabilities, visualisations and investigation journeys will be added over time.
 
+## Capability Journey
+
+1. [Network Intelligence](01-network-intelligence/)
+2. [TBML Analytics](02-tbml-analytics/)
+3. [Correspondent Banking Analytics](03-correspondent-banking-analytics/)
+4. [Capital Markets Analytics](04-capital-markets-analytics/)
+5. [AI Investigator Copilot](05-ai-investigator-copilot/)
+
 ---
 
 © 2026 Dan Hartwig | Financial Crime Transformation Portfolio
