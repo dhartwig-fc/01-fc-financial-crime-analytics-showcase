@@ -118,6 +118,13 @@ F --> H[Beneficial Ownership Analysis]
 F --> I[Network Risk Assessment]
 F --> J[Investigation Workflows]
 ```
+---
+
+## Navigation
+
+⬅️ **Previous:** [Network Intelligence Overview](../README.md)
+
+➡️ **Next:** [Relationship Discovery](../02-relationship-discovery/README.md)
 
 ---
 
@@ -130,9 +137,3 @@ Entity Resolution answers:
 It creates the trusted identity layer required for every downstream Network Intelligence capability.
 
 ---
-
-## Navigation
-
-⬅️ **Previous:** [Network Intelligence Overview](../README.md)
-
-➡️ **Next:** [Relationship Discovery](../02-relationship-discovery/README.md)
