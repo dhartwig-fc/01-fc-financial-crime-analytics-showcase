@@ -338,6 +338,10 @@ This architecture enables explainable AI, consistent investigation outcomes, red
 
 Detailed implementation patterns are documented separately within the AI Investigator Copilot Reference Architecture.
 
+Detailed implementation patterns are documented within the AI Investigator Copilot Reference Architecture.
+
+➡️ [AI Investigator Copilot Reference Architecture](https://github.com/<your-github-id>/fc-prot02-ai-investigator-copilot/tree/main/01-reference-architecture)
+
 ## Business Benefits
 
 ### Investigation Benefits
