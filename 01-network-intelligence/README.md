@@ -73,6 +73,10 @@ Each capability builds upon intelligence produced by the previous stage, progres
 
 ## Intelligence Lifecycle
 
+![Network Intelligence Lifecycle](../images/network-intelligence-patterns/NI001_entity-resolution/network-intelligence-platform/Network_Intelligence_Lifecycle.png)
+
+The Network Intelligence capability stack follows a structured intelligence lifecycle that progressively transforms fragmented data into actionable investigative intelligence.
+
 ### 1. Consolidate
 
 Combine fragmented customer, account, transaction and reference records into trusted investigative entities.
@@ -205,6 +209,14 @@ This creates a cumulative intelligence effect where the value of the platform in
 ---
 
 ## Investigation Journey
+
+![End-to-End Investigation Journey](../images/network-intelligence-patterns/NI001_entity-resolution/network-intelligence-platform/End_To_End_Investigation_Journey.png)
+
+The Network Intelligence investigation journey demonstrates how fragmented customer, transaction, ownership and external intelligence data is progressively transformed into actionable investigative intelligence.
+
+Each stage enriches the investigation with additional context, evidence and insight, enabling investigators to move from alert review to evidence-based decision-making with greater speed, consistency and explainability.
+
+The journey combines Entity Resolution, Relationship Discovery, Beneficial Ownership Intelligence, Network Risk Assessment, Investigation Workflow Intelligence and AI Investigator Copilot capabilities into a single intelligence-led investigative process.
 
 ### Step 1 — Entity Resolution
 
