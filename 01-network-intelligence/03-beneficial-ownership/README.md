@@ -28,7 +28,7 @@ This capability transforms relationship networks into ownership intelligence.
 
 ## Intelligence Question
 
-> Who ultimately owns or controls this entity?
+> Who ultimately owns, controls, or benefits from this entity?
 
 Beneficial Ownership Intelligence identifies the natural persons who ultimately own, control, influence, or benefit from legal entities and organisational structures.
 
@@ -221,6 +221,7 @@ Beneficial Ownership Intelligence reveals:
 - Common ownership structures
 - Previously unknown shareholders
 - Hidden controlling parties
+- Hidden nominee arrangements
 
 Within minutes the investigator can identify:
 
@@ -259,6 +260,7 @@ The investigation expands from a legal entity into a complete ownership intellig
 - Enhanced AML controls
 - Better regulatory reporting
 - Increased ownership transparency
+- Improved Ultimate Beneficial Ownership transparency
 
 ---
 
@@ -296,6 +298,6 @@ Relationship Discovery answers:
 
 Beneficial Ownership Intelligence answers:
 
-> "Who ultimately owns or controls this entity?"
+> "Who ultimately owns, controls, or benefits from this entity?"
 
-Together they transform relationship networks into transparent ownership intelligence that supports financial crime investigations, risk management, and regulatory compliance.
+Together they transform relationship networks into transparent ownership intelligence that supports investigations, risk management, and regulatory compliance.
