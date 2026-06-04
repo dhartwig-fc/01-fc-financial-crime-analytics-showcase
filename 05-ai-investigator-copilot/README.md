@@ -22,7 +22,7 @@ This capability transforms network intelligence into guided investigation suppor
 
 ## Visual Intelligence Pattern
 
-![NI006 AI Investigator Copilot Intelligence Pattern](../../images/ai-investigator-copilot-patterns/06-ai-investigator-copilot/NI006_AI_Investigator_Copilot_Intelligence_Pattern.png)
+![NI006 AI Investigator Copilot Intelligence Pattern](./images/ai-investigator-copilot-patterns/06-ai-investigator-copilot/NI006_AI_Investigator_Copilot_Intelligence_Pattern.png)
 
 ---
 
@@ -336,11 +336,9 @@ Rather than reasoning over raw data, the Copilot consumes a structured Case Inte
 
 This architecture enables explainable AI, consistent investigation outcomes, reduced hallucination risk, and regulatory defensibility.
 
-Detailed implementation patterns are documented separately within the AI Investigator Copilot Reference Architecture.
-
 Detailed implementation patterns are documented within the AI Investigator Copilot Reference Architecture.
 
-➡️ [AI Investigator Copilot Reference Architecture](https://github.com/<your-github-id>/fc-prot02-ai-investigator-copilot/tree/main/01-reference-architecture)
+➡️ [AI Investigator Copilot Reference Architecture](../../../fc-prot02-ai-investigator-copilot/01-reference-architecture/README.md)
 
 ## Business Benefits
 
