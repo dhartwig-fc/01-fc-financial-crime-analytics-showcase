@@ -22,7 +22,7 @@ This capability transforms isolated customer records into actionable intelligenc
 
 # Visual Intelligence Pattern
 
-![NI002 Relationship Discovery Intelligence Pattern](./NI002_Relationship_Discovery_Intelligence_Pattern.png)
+![NI002 Relationship Discovery Intelligence Pattern](../../images/network-intelligence-patterns/NI001_entity-resolution/02-relationship-discovery/NI002_Relationship_Discovery_Intelligence_Pattern.png)
 
 ### Pattern Objective
 
