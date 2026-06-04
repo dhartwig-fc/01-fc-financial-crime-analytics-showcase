@@ -1,6 +1,6 @@
 # Network Intelligence
 
-![Network Intelligence Platform](../images/network-intelligence-patterns/network-intelligence-platform/network-intelligence-platform.png)
+![Network Intelligence Platform](./images/network-intelligence-patterns/network-intelligence-platform/network-intelligence-platform.png)
 
 Transforming fragmented customer, ownership, transaction and reference data into connected investigative intelligence.
 
