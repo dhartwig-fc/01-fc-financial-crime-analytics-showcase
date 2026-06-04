@@ -96,7 +96,7 @@ D --> E[Network Risk Scoring]
 
 E --> F[Risk Prioritisation]
 
-F --> G[Risk Intelligence Model]
+F --> G[Network Risk Intelligence Model]
 
 G --> H[Investigation Workflows]
 
@@ -158,7 +158,7 @@ Examples include:
 - Sanctions Exposure
 - PEP Exposure
 
-The platform identifies how risk propagates through networks.
+The platform identifies how risk propagates through direct and indirect relationships, allowing risk to be propagated and inherited across ownership, relationship, and transactional networks.
 
 ---
 
@@ -194,6 +194,8 @@ Outputs include:
 
 The result is a risk-ranked intelligence model.
 
+The prioritised outputs are consolidated into a Network Risk Intelligence Model that becomes the authoritative source of risk intelligence for investigations, alert prioritisation, case management, and AI-assisted investigations.
+
 ---
 
 ## Intelligence Produced
@@ -210,6 +212,7 @@ The result is a risk-ranked intelligence model.
 | Organised Crime Indicators | Network patterns linked to criminal activity |
 | Investigation Priorities | Prioritised investigative targets |
 | Explainable Risk Factors | Drivers behind risk assessments |
+| Network Risk Intelligence Model | Authoritative risk model supporting investigation and prioritisation |
 
 ---
 
@@ -226,6 +229,8 @@ Network Risk Assessment reveals:
 - Shared ownership structures
 - High-risk behavioural indicators
 - Membership of a suspicious network cluster
+
+The customer belongs to a network cluster containing two sanctioned associates, three previously investigated entities, and a shared beneficial ownership structure.
 
 Within minutes the investigator can identify:
 
