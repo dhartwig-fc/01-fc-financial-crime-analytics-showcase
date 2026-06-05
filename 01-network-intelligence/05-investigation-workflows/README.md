@@ -286,6 +286,8 @@ Instead of spending time managing workflows, investigators focus on evidence and
 ## Network Intelligence Journey
 
 ~~~text
+Network Intelligence Journey
+
 Entity Resolution
         ↓
 Relationship Discovery
@@ -296,16 +298,27 @@ Network Risk Assessment
         ↓
 Investigation Workflows
         ↓
-AI Investigator Copilot
+Case Intelligence
+      ╱  │  │  ╲
+     ╱   │  │   ╲
+ TBML   CB  CM   Copilot
 ~~~
-
 ---
 
 ## Navigation
 
 ⬅️ **Previous:** [Network Risk Assessment](../04-network-risk-assessment/README.md)
 
-➡️ **Next:** [AI Investigator Copilot](../../05-ai-investigator-copilot/README.md)
+### Intelligence Produced
+
+This capability produces structured **Case Intelligence** for downstream Financial Crime analytics and investigation capabilities.
+
+### Downstream Consumers
+
+- [TBML Analytics](../../02-tbml-analytics/README.md)
+- [Correspondent Banking Analytics](../../03-correspondent-banking-analytics/README.md)
+- [Capital Markets Analytics](../../04-capital-markets-analytics/README.md)
+- [AI Investigator Copilot](../../05-ai-investigator-copilot/README.md)
 
 ---
 
