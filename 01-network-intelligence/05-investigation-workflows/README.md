@@ -299,9 +299,9 @@ Network Risk Assessment
 Investigation Workflows
         ↓
 Case Intelligence
-      ╱  │  │  ╲
-     ╱   │  │   ╲
- TBML   CB  CM   Copilot
+      ╱  │  │  │  ╲
+     ╱   │  │  │   ╲
+ TBML   CB  CM SAN  Copilot
 ~~~
 ---
 
