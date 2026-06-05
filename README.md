@@ -1,6 +1,6 @@
 # Financial Crime Analytics Showcase
 
-Portfolio of Financial Crime Analytics, Network Intelligence, Trade-Based Money Laundering Detection, Correspondent Banking Analytics, Capital Markets Surveillance and AI-Enabled Investigation Workflows.
+Portfolio of Financial Crime Analytics, Network Intelligence, Trade-Based Money Laundering Detection, Correspondent Banking Analytics, Capital Markets Surveillance, Sanctions Exposure Analytics and AI-Enabled Investigation Workflows.
 
 ---
 
@@ -36,11 +36,12 @@ Each section demonstrates how analytical techniques can be applied to solve real
 
 | Step | Capability | Focus |
 |--------|--------|--------|
-| 01 | Network Intelligence | Entity Resolution, Beneficial Ownership and Relationship Discovery |
-| 02 | TBML Analytics | Trade-Based Money Laundering Detection and Trade Intelligence |
-| 03 | Correspondent Banking Analytics | Nested Respondent Risk and Payment Network Analytics |
-| 04 | Capital Markets Analytics | Market Abuse Detection and Trading Surveillance |
-| 05 | AI Investigator Copilot | AI-Assisted Investigation and Decision Support |
+| 01 | Network Intelligence | Entity Resolution, Ownership and Relationship Discovery |
+| 02 | TBML Analytics | Trade Intelligence and Trade-Based Money Laundering |
+| 03 | Correspondent Banking Analytics | Payment Intelligence and Exposure Analysis |
+| 04 | Capital Markets Analytics | Market Abuse and Securities Layering Detection |
+| 05 | Sanctions Exposure Analytics | Ownership Evasion, Shadow Fleets and Exposure Assessment |
+| 06 | AI Investigator Copilot | AI-Assisted Investigation and Decision Support |
 
 ---
 
@@ -56,6 +57,8 @@ TBML Analytics
 Correspondent Banking Analytics
         ↓
 Capital Markets Analytics
+        ↓
+Sanctions Exposure Analytics
         ↓
 AI Investigator Copilot
 ```
@@ -79,7 +82,7 @@ Network Intelligence forms the foundation of modern Financial Crime investigatio
 
 Transform isolated customer records into connected investigative intelligence.
 
-➡️ Open: `01-network-intelligence`
+➡️ Open: [01 Network Intelligence](./01-network-intelligence)
 
 ---
 
@@ -98,7 +101,7 @@ Trade-Based Money Laundering remains one of the most complex Financial Crime cha
 
 Identify hidden value transfer through international trade activity.
 
-➡️ Open: `02-tbml-analytics`
+➡️ Open: [02 TBML Analytics](./02-tbml-analytics)
 
 ---
 
@@ -117,7 +120,7 @@ Correspondent Banking networks create complex payment pathways and indirect expo
 
 Identify hidden risk concentrations across correspondent banking relationships.
 
-➡️ Open: `03-correspondent-banking-analytics`
+➡️ Open: [03 Correspondent Banking Analytics](./03-correspondent-banking-analytics)
 
 ---
 
@@ -136,11 +139,31 @@ Market abuse investigations increasingly rely on advanced analytics and network 
 
 Identify suspicious trading behaviour and connected market participants.
 
-➡️ Open: `04-capital-markets-analytics`
+➡️ Open: [04 Capital Markets Analytics](./04-capital-markets-analytics)
 
 ---
 
-# 05 AI Investigator Copilot
+# 05 Sanctions Exposure Analytics
+
+Sanctions investigations increasingly require advanced ownership intelligence, network analytics and exposure assessment capabilities to identify indirect sanctions risk and sanctions evasion activity.
+
+### Example Capabilities
+
+- Ownership Evasion Detection
+- Shadow Fleet Analytics
+- Trade-Based Sanctions Evasion
+- Exposure Intelligence
+- Maritime Network Analysis
+
+### Key Outcome
+
+Identify hidden sanctions exposure, indirect ownership risk and complex sanctions evasion structures across customers, vessels, counterparties and trade networks.
+
+➡️ Open: [05 Sanctions Exposure Analytics](./06-sanctions-exposure-analytics)
+
+---
+
+# 06 AI Investigator Copilot
 
 Artificial Intelligence can enhance investigator productivity and support decision-making across Financial Crime operations.
 
@@ -155,7 +178,7 @@ Artificial Intelligence can enhance investigator productivity and support decisi
 
 Enable faster, more consistent and explainable investigations.
 
-➡️ Open: `05-ai-investigator-copilot`
+➡️ Open: [06 AI Investigator Copilot](./05-ai-investigator-copilot)
 
 ---
 
@@ -170,13 +193,15 @@ The showcase is built around six core principles:
 - Human-AI Collaboration
 - Operational Decision Support
 
----
+  ---
 
 # Repository Status
 
 This repository is actively being developed as a showcase of Financial Crime Analytics, Network Intelligence and AI-enabled operating models.
 
 Additional capabilities, visualisations and investigation journeys will be added over time.
+
+---
 
 ## Repository Navigation
 
@@ -188,7 +213,8 @@ Additional capabilities, visualisations and investigation journeys will be added
 | **02 TBML Analytics** | Trade-Based Money Laundering analytics including over-invoicing, under-invoicing, commodity pricing intelligence and trade risk scoring. |
 | **03 Correspondent Banking Analytics** | Correspondent banking risk analytics, nested banking detection, payment flow intelligence and respondent risk assessment. |
 | **04 Capital Markets Analytics** | Market abuse, insider dealing, trade surveillance and capital markets intelligence capabilities. |
-| **05 AI Investigator Copilot** | AI-enabled investigator workflows, alert triage, case summarisation and investigation support. |
+| **05 Sanctions Exposure Analytics** | Ownership evasion, shadow fleet detection, sanctions exposure intelligence and maritime risk assessment capabilities. |
+| **06 AI Investigator Copilot** | AI-enabled investigator workflows, alert triage, case summarisation and investigation support. |
 
 ---
 
@@ -207,7 +233,9 @@ START
   ↓
 04 Capital Markets Analytics
   ↓
-05 AI Investigator Copilot
+05 Sanctions Exposure Analytics
+  ↓
+06 AI Investigator Copilot
   ↓
 END-TO-END FINANCIAL CRIME INTELLIGENCE PLATFORM
 ```
@@ -240,7 +268,8 @@ These capabilities underpin all downstream analytics libraries.
 | 02 | [TBML Analytics](./02-tbml-analytics) |
 | 03 | [Correspondent Banking Analytics](./03-correspondent-banking-analytics) |
 | 04 | [Capital Markets Analytics](./04-capital-markets-analytics) |
-| 05 | [AI Investigator Copilot](./05-ai-investigator-copilot) |
+| 05 | [Sanctions Exposure Analytics](./06-sanctions-exposure-analytics) |
+| 06 | [AI Investigator Copilot](./05-ai-investigator-copilot) |
 
 ---
 
@@ -255,8 +284,67 @@ Payment Intelligence (Correspondent Banking)
         ↓
 Market Intelligence (Capital Markets)
         ↓
+Exposure Intelligence (Sanctions)
+        ↓
 AI-Augmented Investigations
 ```
+
+---
+
+## Showcase Highlights
+
+The showcase demonstrates how intelligence-led capabilities can be applied across multiple Financial Crime domains using a common analytical and investigative framework.
+
+Featured capabilities include:
+
+- NI002 Relationship Discovery and Network Intelligence
+- TBML001 Trade-Based Money Laundering Detection
+- CBA001 Nested Correspondent Banking Exposure
+- CM004 Securities Layering Analytics
+- SAN001 Ownership Evasion Detection
+- SAN002 Shadow Fleet Operations
+- AI Investigator Copilot
+
+Together these capabilities demonstrate how network intelligence, analytics, exposure assessment and artificial intelligence can be combined to support modern Financial Crime operations.
+
+---
+
+## Financial Crime Intelligence Journey
+
+```text
+Entity Resolution
+        ↓
+Relationship Discovery
+        ↓
+Beneficial Ownership Intelligence
+        ↓
+Trade Intelligence
+        ↓
+Payment Intelligence
+        ↓
+Market Intelligence
+        ↓
+Exposure Intelligence
+        ↓
+AI-Assisted Investigation
+```
+
+---
+
+## Portfolio Vision
+
+The long-term vision is to create an integrated Financial Crime Intelligence Platform capable of transforming fragmented data into actionable intelligence.
+
+The platform combines:
+
+- Network Intelligence
+- Trade Intelligence
+- Payment Intelligence
+- Market Intelligence
+- Exposure Intelligence
+- AI-Augmented Investigations
+
+to support a modern intelligence-led operating model.
 
 ---
 
