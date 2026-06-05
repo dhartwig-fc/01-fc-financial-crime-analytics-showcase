@@ -39,37 +39,30 @@ This reduces hallucination risk, improves explainability and makes the Copilot m
 
 ## High-Level Architecture
 
+## AI Investigator Copilot Lifecycle
+
+## AI Investigator Copilot Lifecycle
+
 ```mermaid
-flowchart TD
+flowchart LR
 
-A[Financial Crime Data Sources] --> B[Data Preparation Layer]
-B --> C[Network Intelligence Layer]
-C --> D[Case Intelligence Model]
-D --> E[AI Investigator Copilot]
-E --> F[Investigator Review]
-F --> G[Investigation Decision]
+A[Case Intelligence Model] --> B[Context Assembly]
 
-A1[Customer Data] --> A
-A2[Transaction Data] --> A
-A3[Case History] --> A
-A4[Sanctions Data] --> A
-A5[Policy & Procedure Documents] --> A
+B --> C[AI Reasoning]
 
-C1[Entity Resolution] --> C
-C2[Relationship Discovery] --> C
-C3[Beneficial Ownership Intelligence] --> C
-C4[Network Risk Assessment] --> C
-C5[Investigation Workflow Intelligence] --> C
+C --> D[Investigation Summary]
+C --> E[Risk Explanation]
+C --> F[Recommended Actions]
+C --> G[Narrative Generation]
 
-E1[LLM Reasoning Layer] --> E
-E2[RAG Knowledge Layer] --> E
-E3[Tool Calling Layer] --> E
-E4[Prompt Guardrails] --> E
+D --> H[Investigator Review]
+E --> H
+F --> H
+G --> H
 
-F --> H[Case Notes]
-F --> I[Escalation]
-F --> J[EDD Recommendation]
-F --> K[SAR Consideration]
+H --> I[Case Outcome]
+
+I --> J[Feedback and Learning]
 ```
 
 ## Architecture Layers
