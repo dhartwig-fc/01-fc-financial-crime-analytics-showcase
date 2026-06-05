@@ -1,39 +1,51 @@
-# CBA001 – Nested Correspondent Banking Exposure
+# Capital Markets Analytics
 
 ## Executive Summary
 
-Nested correspondent banking occurs when a respondent bank gains indirect access to the international financial system through another correspondent relationship. This can create hidden exposure to high-risk jurisdictions, sanctioned entities, shell companies, or financial institutions that would otherwise be restricted from direct access.
+Capital markets provide a critical mechanism for raising capital, allocating investment, and supporting economic growth. Every day, financial institutions, investors, brokers, exchanges, and market participants execute vast volumes of securities transactions across global markets.
 
-This analytic pattern identifies nested correspondent banking relationships and traces payment flows across multiple intermediary institutions to reveal hidden exposure, concentration risk, and potential sanctions evasion pathways.
+While these markets play an essential role in the financial system, they can also be exploited by criminal networks seeking to conceal ownership, layer illicit funds, manipulate markets, disguise transaction activity, and extract criminal proceeds.
 
-The capability enables investigators to understand indirect banking relationships that may not be visible through traditional transaction monitoring approaches.
+Traditional surveillance approaches often focus on individual transactions or isolated trading events. However, many financial crime and market abuse risks emerge through networks of related investors, nominee account structures, beneficial ownership arrangements, coordinated trading behaviour, and complex securities transaction patterns that are difficult to identify through traditional monitoring techniques.
+
+The objective of Capital Markets Analytics is not simply to monitor trades. The objective is to transform trading activity, investor relationships, ownership structures, market behaviour, and transaction intelligence into actionable Capital Markets Intelligence that combines network intelligence, ownership intelligence, behavioural intelligence, exposure intelligence, and risk intelligence.
+
+This capability extends the Network Intelligence architecture established across Entity Resolution, Relationship Discovery, Beneficial Ownership Intelligence, Exposure Analytics, and Network Risk Assessment.
+
+The result is a Capital Markets Intelligence capability that supports investigation workflows, market abuse detection, financial crime investigations, regulatory compliance obligations, and future AI-enabled investigation capabilities.
 
 ---
 
 ## Visual Intelligence Pattern
 
-![CBA001 Nested Correspondent Banking Exposure](images/CBA001_Nested_Correspondent_Banking_Exposure.png)
+The following example demonstrates how Capital Markets Analytics identifies securities layering activity across networks of related investors, brokerage accounts, and beneficial ownership structures.
+
+### CM004 – Securities Layering Network
+
+![CM004 Securities Layering Network](images/CM004_Securities_Layering_Network.png)
 
 ---
 
 ## Intelligence Question
 
-Which payment flows traverse hidden or indirect correspondent banking relationships that expose the institution to elevated financial crime, sanctions, or regulatory risk?
+> Are securities transactions being used to layer, disguise, transfer, or integrate illicit funds through networks of related investors, brokerage accounts, and beneficial owners?
 
 ---
 
 ## Pattern Objective
 
-Identify respondent banks, intermediary institutions, and downstream beneficiaries operating through nested correspondent banking structures that may obscure the true origin, destination, or ownership of funds.
+Identify securities transactions that may be used to conceal ownership, layer illicit funds, disguise transaction activity, or integrate criminal proceeds through coordinated trading activity.
 
-The pattern seeks to reveal:
+The capability seeks to identify:
 
-- Hidden correspondent relationships
-- Indirect access to the financial system
-- High-risk jurisdiction exposure
-- Sanctions evasion pathways
-- Respondent bank concentration risk
-- Complex payment routing structures
+- Securities layering activity
+- Networks of related investors
+- Hidden beneficial ownership
+- Coordinated trading behaviour
+- Structured transaction patterns
+- Rapid asset movement
+- Circular trading activity
+- Financial crime exposure indicators
 
 ---
 
@@ -41,112 +53,38 @@ The pattern seeks to reveal:
 
 | Capability | Purpose |
 |------------|----------|
-| Entity Resolution | Resolve financial institutions across payment records |
-| Network Intelligence | Identify indirect banking relationships |
-| Payment Analytics | Analyse transaction flows |
-| Sanctions Screening | Identify restricted entities and jurisdictions |
-| Risk Scoring | Prioritise exposure scenarios |
-| AI Investigator Copilot | Support investigator decision making |
+| Entity Resolution | Resolve investors, entities, and brokerage accounts |
+| Network Intelligence | Identify relationship structures and investor networks |
+| Beneficial Ownership Intelligence | Understand ownership and control structures |
+| Trading Analytics | Analyse securities transaction behaviour |
+| Risk Scoring | Prioritise suspicious trading activity |
+| AI Investigator Copilot | Support investigator decision-making |
 
 ---
 
 ## Downstream Capabilities Enabled
 
-- Correspondent Risk Scoring
-- Sanctions Exposure Analytics
-- Network Intelligence
-- Enhanced Due Diligence
+- Financial Crime Investigations
+- Market Abuse Investigations
 - AI Investigator Copilot
+- Enhanced Due Diligence
 - Regulatory Reporting
 - Alert Prioritisation
-
----
-
-## Lifecycle Diagram
-
-```text
-Payment Messages
-        ↓
-Institution Resolution
-        ↓
-Correspondent Network Construction
-        ↓
-Nested Relationship Detection
-        ↓
-Exposure Analysis
-        ↓
-Risk Scoring
-        ↓
-Investigator Review
-```
+- Enterprise Investigation Platforms
 
 ---
 
 ## How It Works
 
-The capability analyses payment records, correspondent banking relationships, SWIFT messages, and institution reference data.
+The capability analyses investor accounts, securities transactions, ownership structures, market activity, and relationship networks to identify behaviour consistent with layering and concealment of illicit funds.
 
-The process:
+Network analytics identify relationships between investors, brokerage accounts, intermediaries, and beneficial owners that may not be visible through traditional surveillance approaches.
 
-1. Identify originating institutions.
-2. Resolve intermediary correspondents.
-3. Map downstream respondent banks.
-4. Construct payment routing networks.
-5. Detect nested access arrangements.
-6. Assess jurisdictional and sanctions exposure.
-7. Score correspondent banking risk.
-8. Generate investigator intelligence.
+Behavioural analytics assess trading frequency, transaction sequencing, asset movement patterns, timing, and account interactions to identify potential layering activity.
 
----
+Exposure analytics evaluate ownership structures, counterparties, jurisdictions, and network proximity to determine the significance of identified risks.
 
-## Data Sources
-
-### Internal Sources
-
-- SWIFT MT Messages
-- SWIFT MX Messages
-- Payment Transactions
-- Customer Data
-- Correspondent Banking Reference Data
-- KYC Records
-
-### External Sources
-
-- Sanctions Lists
-- High-Risk Jurisdiction Lists
-- Bank Ownership Data
-- Corporate Registry Data
-- Adverse Media Sources
-
----
-
-## Analytics Techniques
-
-### Network Analysis
-
-Construct multi-hop correspondent banking networks to identify indirect relationships.
-
-### Path Analysis
-
-Trace payment routes across multiple institutions.
-
-### Concentration Analysis
-
-Measure dependency on specific correspondent institutions.
-
-### Exposure Analysis
-
-Identify downstream exposure to elevated-risk entities and jurisdictions.
-
-### Risk Scoring
-
-Assign risk scores based on:
-
-- Jurisdiction risk
-- Institution risk
-- Network complexity
-- Payment volume
-- Sanctions proximity
+The resulting intelligence provides investigators with visibility into complex trading networks and transaction structures that may indicate financial crime, market abuse, or money laundering activity.
 
 ---
 
@@ -154,38 +92,13 @@ Assign risk scores based on:
 
 The capability generates:
 
-- Nested correspondent banking relationships
-- Hidden institution exposure
-- High-risk payment corridors
-- Sanctions adjacency indicators
-- Correspondent concentration risks
-- Downstream beneficiary exposure
-
----
-
-## Example Scenario
-
-A payment originates from Bank A.
-
-The transaction passes through:
-
-```text
-Bank A
-   ↓
-Correspondent Bank X
-   ↓
-Correspondent Bank Y
-   ↓
-Respondent Bank Z
-   ↓
-Beneficiary
-```
-
-Traditional monitoring may only assess Bank X.
-
-This capability identifies the complete payment chain and reveals that Respondent Bank Z operates within a sanctioned or elevated-risk jurisdiction.
-
-The institution gains visibility of exposure that would otherwise remain hidden.
+- Capital Markets Intelligence
+- Investor Network Intelligence
+- Beneficial Ownership Intelligence
+- Trading Behaviour Intelligence
+- Securities Layering Intelligence
+- Financial Crime Exposure Intelligence
+- Risk Assessments
 
 ---
 
@@ -193,74 +106,131 @@ The institution gains visibility of exposure that would otherwise remain hidden.
 
 Investigators use the intelligence to:
 
-- Understand payment routing structures
-- Identify hidden correspondent relationships
-- Assess sanctions exposure
+- Assess suspicious trading activity
+- Identify hidden investor relationships
+- Understand beneficial ownership structures
+- Investigate layering behaviour
 - Support enhanced due diligence reviews
-- Investigate unusual payment flows
-- Prioritise high-risk alerts
+- Prioritise high-risk investigations
+- Escalate significant financial crime risks
 
 ---
 
 ## Business Benefits
 
-### Risk Reduction
+### Improved Visibility
 
-Improves visibility into indirect exposure and hidden banking relationships.
+Provides transparency into complex investor networks and trading relationships.
 
-### Regulatory Compliance
+### Enhanced Risk Detection
 
-Supports correspondent banking expectations and sanctions obligations.
+Identifies layering behaviour and concealed ownership structures that may not be visible through traditional surveillance approaches.
 
-### Operational Efficiency
+### Faster Investigations
 
-Provides investigators with pre-built relationship intelligence.
+Provides investigators with pre-built network intelligence and behavioural analysis.
 
-### Enhanced Transparency
+### Improved Risk Prioritisation
 
-Reveals payment routes that are not visible through traditional monitoring approaches.
+Enables resources to focus on the highest-risk trading activity and investor networks.
+
+### Better Decision-Making
+
+Supports risk-based decisions using network-driven capital markets intelligence.
 
 ---
 
-## Correspondent Banking Intelligence Journey
+## Portfolio Position
 
-```text
-Payment Data
-        ↓
-Institution Resolution
-        ↓
-Network Construction
-        ↓
-Nested Relationship Detection
-        ↓
-Risk Assessment
-        ↓
-Investigator Intelligence
-        ↓
-Operational Action
-```
+Capital Markets Analytics consumes intelligence generated by Network Intelligence, Beneficial Ownership Intelligence, Investigation Workflows, and Entity Resolution.
+
+The capability applies this intelligence to securities transactions, investor relationships, brokerage accounts, and market activity to generate structured Capital Markets Intelligence.
+
+Capital Markets Intelligence produced by this capability can subsequently be consumed by:
+
+- Sanctions Exposure Analytics
+- AI Investigator Copilot
+- Investigation Workflows
+- Enhanced Due Diligence Processes
+- Enterprise Financial Crime Investigation Platforms
+
+Capital Markets Analytics therefore represents the intelligence layer connecting investor behaviour, ownership structures, securities activity, and financial crime investigations.
 
 ---
 
 ## Navigation
 
-### Previous
+### Upstream Intelligence Dependencies
 
-- Financial Crime Analytics Showcase
+⬅️ [Network Intelligence](../01-network-intelligence)
 
-### Related Capabilities
+### Downstream Intelligence Consumers
 
-- Network Intelligence
-- Sanctions Exposure Analytics
-- AI Investigator Copilot
-- Entity Resolution Analytics
+➡️ [Sanctions Exposure Analytics](../06-sanctions-exposure-analytics)
 
-### Next
+➡️ [AI Investigator Copilot](../05-ai-investigator-copilot)
 
-- CBA002 High-Risk Corridor Analysis
+---
+
+## Intelligence Flow
+
+```text
+Network Intelligence
+        ↓
+Beneficial Ownership Intelligence
+        ↓
+Investor Resolution
+        ↓
+Capital Markets Analytics
+        ↓
+Capital Markets Intelligence
+        ↓
+Sanctions Exposure Analytics
+AI Investigator Copilot
+Investigation Workflows
+```
+
+---
+
+## Intelligence Dependency Chain
+
+```text
+Entity Resolution
+        ↓
+Relationship Discovery
+        ↓
+Beneficial Ownership Intelligence
+        ↓
+Network Risk Assessment
+        ↓
+Investigation Workflows
+        ↓
+Case Intelligence
+        ↓
+Capital Markets Analytics
+        ↓
+Capital Markets Intelligence
+```
 
 ---
 
 ## Key Message
 
-Nested correspondent banking relationships can conceal exposure to elevated-risk institutions, jurisdictions, and sanctioned entities. By combining payment analytics, network intelligence, and risk scoring, investigators gain visibility into hidden banking relationships and indirect financial crime exposure across complex international payment networks.
+Network Intelligence explains:
+
+> Who is connected?
+
+> Who owns what?
+
+> What relationships exist?
+
+Capital Markets Analytics transforms this understanding into actionable Capital Markets Intelligence and answers:
+
+> Are securities transactions being used to layer illicit funds?
+
+> Are investor networks concealing beneficial ownership?
+
+> Do trading patterns indicate financial crime exposure?
+
+The resulting Capital Markets Intelligence becomes a downstream input into investigations, sanctions analysis, regulatory reporting, and future AI-enabled financial crime operations.
+```
