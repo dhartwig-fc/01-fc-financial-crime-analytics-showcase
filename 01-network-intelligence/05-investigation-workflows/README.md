@@ -318,7 +318,7 @@ This capability produces structured **Case Intelligence** for downstream Financi
 - [TBML Analytics](../../02-tbml-analytics/README.md)
 - [Correspondent Banking Analytics](../../03-correspondent-banking-analytics/README.md)
 - [Capital Markets Analytics](../../04-capital-markets-analytics/README.md)
-- [Sanctions Screening Analytics](../../06-sanctions-screening-analytics/README.md)
+- [Sanctions Exposure Analytics](../../06-sanctions-exposure-analytics/README.md)
 - [AI Investigator Copilot](../../05-ai-investigator-copilot/README.md)
 
 
