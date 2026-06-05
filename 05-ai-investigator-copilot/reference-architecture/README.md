@@ -41,28 +41,35 @@ This reduces hallucination risk, improves explainability and makes the Copilot m
 
 ## AI Investigator Copilot Lifecycle
 
-## AI Investigator Copilot Lifecycle
-
 ```mermaid
 flowchart LR
 
-A[Case Intelligence Model] --> B[Context Assembly]
+A["Case Intelligence Model"]
+B["Context Assembly"]
+C["AI Reasoning"]
+D["Investigation Summary"]
+E["Risk Explanation"]
+F["Recommended Actions"]
+G["Narrative Generation"]
+H["Investigator Review"]
+I["Case Outcome"]
+J["Feedback and Learning"]
 
-B --> C[AI Reasoning]
+A --> B
+B --> C
 
-C --> D[Investigation Summary]
-C --> E[Risk Explanation]
-C --> F[Recommended Actions]
-C --> G[Narrative Generation]
+C --> D
+C --> E
+C --> F
+C --> G
 
-D --> H[Investigator Review]
+D --> H
 E --> H
 F --> H
 G --> H
 
-H --> I[Case Outcome]
-
-I --> J[Feedback and Learning]
+H --> I
+I --> J
 ```
 
 ## Architecture Layers
