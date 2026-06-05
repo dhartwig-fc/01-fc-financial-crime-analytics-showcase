@@ -339,7 +339,7 @@ This architecture enables explainable AI, consistent investigation outcomes, red
 
 Detailed implementation patterns are documented within the AI Investigator Copilot Reference Architecture.
 
-➡️ [AI Investigator Copilot Reference Architecture](https://github.com/danhartwig-fc/fc-prot02-ai-investigator-copilot)
+➡️ [AI Investigator Copilot Reference Architecture](./reference-architecture/README.md)
 
 ---
 
