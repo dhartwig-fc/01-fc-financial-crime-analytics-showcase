@@ -160,10 +160,6 @@ Correspondent Banking Analytics therefore represents a critical intelligence lay
 
 ⬅️ [Network Intelligence](../01-network-intelligence)
 
-⬅️ Investigation Workflows
-
-⬅️ Institution Resolution
-
 ### Downstream Intelligence Consumers
 
 ➡️ [Sanctions Exposure Analytics](../06-sanctions-exposure-analytics)
@@ -171,6 +167,25 @@ Correspondent Banking Analytics therefore represents a critical intelligence lay
 ➡️ [AI Investigator Copilot](../05-ai-investigator-copilot)
 
 ➡️ [Capital Markets Analytics](../04-capital-markets-analytics)
+
+---
+
+## Intelligence Flow
+
+```text
+Network Intelligence
+        ↓
+Institution Resolution
+        ↓
+Payment Intelligence
+        ↓
+Correspondent Banking Analytics
+        ↓
+Correspondent Intelligence
+        ↓
+Sanctions Exposure Analytics
+AI Investigator Copilot
+Investigation Workflows
 
 ---
 
