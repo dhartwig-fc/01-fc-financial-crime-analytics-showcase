@@ -108,6 +108,30 @@ Exposure Scoring
             ↓
 Investigator Escalation
 ```
+## Visual Intelligence Pattern
+
+The following example demonstrates how Sanctions Exposure Analytics extends traditional sanctions screening by combining ownership analysis, network intelligence, maritime analytics and exposure scoring.
+
+### SAN002 – Shadow Fleet Operations
+
+Shadow Fleet Operations represent one of the most complex sanctions evasion typologies currently observed across global trade and maritime networks.
+
+The typology demonstrates how indirect ownership structures, vessel behaviour, maritime logistics networks and sanctions exposure relationships can be combined to conceal beneficial ownership and facilitate sanctions evasion.
+
+![SAN002 Shadow Fleet Operations](images/SAN002_Shadow_Fleet_Operations.png)
+
+### Intelligence Question
+
+> Is this vessel, ownership structure or trade network indirectly exposed to sanctioned parties despite no direct sanctions match?
+
+### Intelligence Produced
+
+- Ownership Exposure Intelligence
+- Maritime Risk Intelligence
+- Network Exposure Intelligence
+- Trade Exposure Intelligence
+- Sanctions Exposure Scores
+- Investigation Recommendations
 
 ---
 
@@ -223,19 +247,46 @@ V7  Enterprise Sanctions Command Centre
 
 ---
 
-## Example Typologies
+### Example Typologies
 
-The capability supports sanctions exposure and sanctions evasion typologies including:
+| ID | Typology | Focus Area |
+|-----|----------|------------|
+| 📘 SAN001 | Beneficial Ownership Evasion | Concealed ownership and control structures |
+| 🚢 SAN002 | Shadow Fleet Operations | Maritime sanctions evasion and vessel networks |
+| 🌍 SAN003 | Transshipment Evasion | Jurisdiction and routing concealment |
+| 🏢 SAN004 | Front Companies & Shell Networks | Corporate concealment structures |
+| 🕸️ SAN005 | Indirect Sanctions Exposure Networks | Hidden exposure through relationships |
+| 📦 SAN006 | Trade-Based Sanctions Evasion | Trade controls and commodity exposure |
+| ⚙️ SAN007 | Export Controls & Dual-Use Goods Evasion | Export control violations |
+| 🚩 SAN008 | Maritime Concealment & Vessel Deception | AIS manipulation and vessel behaviour |
+| 🔗 SAN009 | Complex Ownership & Control Structures | Multi-layer ownership networks |
 
-- SAN001 Beneficial Ownership Evasion
-- SAN002 Shadow Fleet Operations
-- SAN003 Transshipment Evasion
-- SAN004 Front Companies
-- SAN005 Indirect Ownership Exposure
-- SAN006 Trade-Based Sanctions Evasion
-- SAN007 Export Controls Evasion
-- SAN008 Maritime Concealment Networks
-- SAN009 Complex Ownership Structures
+### Featured Visual Intelligence Pattern
+
+🚢 **SAN002 – Shadow Fleet Operations**
+
+The Shadow Fleet Operations typology demonstrates how ownership analytics, maritime intelligence, network analytics and sanctions exposure scoring can be combined to identify hidden sanctions risk.
+
+![SAN002 Shadow Fleet Operations](images/SAN002_Shadow_Fleet_Operations.png)
+
+**Key Capabilities Demonstrated**
+
+- Entity Resolution
+- Beneficial Ownership Analysis
+- Relationship Discovery
+- Maritime Intelligence
+- Network Risk Assessment
+- Exposure Scoring
+- Investigation Workflow Intelligence
+
+**Example Intelligence Produced**
+
+- Hidden ownership structures
+- Sanctioned beneficial ownership exposure
+- Ship-to-ship transfer detection
+- High-risk port activity
+- Maritime sanctions evasion indicators
+- Exposure risk scoring
 
 ---
 
@@ -262,16 +313,6 @@ The capability combines Network Intelligence, graph analytics and investigative 
 ### Downstream Capability
 
 ➡️ [AI Investigator Copilot](../06-ai-investigator-copilot/README.md)
-
-### Example Typologies
-
-📊 SAN001 Beneficial Ownership Evasion
-
-📊 SAN002 Shadow Fleet Operations
-
-📊 SAN003 Transshipment Evasion
-
-📊 SAN006 Trade-Based Sanctions Evasion
 
 ---
 
