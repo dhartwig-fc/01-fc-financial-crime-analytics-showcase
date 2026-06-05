@@ -57,7 +57,9 @@ The resulting intelligence graph becomes the foundation for:
 
 This capability depends on:
 
-![NI002 Relationship Discovery Intelligence Pattern](../../images/network-intelligence-patterns/NI001_entity-resolution/02-relationship-discovery/NI002_Relationship_Discovery_Intelligence_Pattern.png)
+- NI001 – Entity Resolution Intelligence Pattern
+
+Relationship Discovery can only occur once entities have been resolved into trusted customers, counterparties, organisations and networks.
 
 ---
 
