@@ -378,3 +378,21 @@ The AI Investigator Copilot is not a chatbot sitting on top of financial crime d
 It is an investigation support capability built on trusted intelligence, structured evidence, network analytics and human review.
 
 Its value comes from combining AI assistance with explainable, governed and regulator-defensible investigation intelligence.
+
+## Navigation
+
+⬅️ Previous: [AI Investigator Copilot](../README.md)
+
+➡️ Next: AI Investigator Copilot Prototype
+
+The reference architecture demonstrates how the capability is assembled.
+
+The next repository shows a working prototype implementation including:
+- Alert enrichment
+- Risk explanation
+- Investigation recommendations
+- AI-assisted workflow support
+
+[Launch AI Investigator Copilot Prototype →](https://github.com/dhartwig-fc/fc-prot02-ai-investigator-copilot)
+
+🏠 Return to: [Financial Crime Analytics Showcase](../../README.md)
