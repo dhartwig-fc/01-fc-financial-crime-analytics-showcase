@@ -112,7 +112,8 @@ Network Intelligence forms part of the broader Financial Crime Analytics Showcas
 2. Trade-Based Money Laundering Analytics
 3. Correspondent Banking Analytics
 4. Capital Markets Analytics
-5. AI Investigator Copilot
+5. Sanctions Screening Analytics
+6. AI Investigator Copilot
 
 Together these capabilities demonstrate how graph intelligence, investigative workflows, advanced analytics and AI can be combined to support intelligence-led financial crime detection, investigation and prevention.
 
