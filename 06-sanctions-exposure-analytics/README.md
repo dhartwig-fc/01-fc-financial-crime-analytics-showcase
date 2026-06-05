@@ -263,7 +263,7 @@ V7  Enterprise Sanctions Command Centre
 
 The Shadow Fleet Operations typology demonstrates how ownership analytics, maritime intelligence, network analytics and sanctions exposure scoring can be combined to identify hidden sanctions risk.
 
-![SAN002 Shadow Fleet Operations](images/SAN002_Shadow_Fleet_Operations.png)
+![SAN002 Shadow Fleet Operations](../images/SAN002_Shadow_Fleet_Operations.png)
 
 **Key Capabilities Demonstrated**
 
