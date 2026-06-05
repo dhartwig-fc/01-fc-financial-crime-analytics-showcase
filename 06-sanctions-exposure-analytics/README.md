@@ -114,7 +114,7 @@ Shadow Fleet Operations represent one of the most complex sanctions evasion typo
 
 The typology demonstrates how indirect ownership structures, vessel behaviour, maritime logistics networks and sanctions exposure relationships can be combined to conceal beneficial ownership and facilitate sanctions evasion.
 
-![SAN002 Shadow Fleet Operations](images/SAN002_Shadow_Fleet_Operations.png)
+![SAN002 Shadow Fleet Operations](../images/sanctions-exposure-patterns/SAN002_Shadow_Fleet_Operations.png)
 
 ### Intelligence Question
 
