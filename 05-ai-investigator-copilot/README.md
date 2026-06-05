@@ -421,9 +421,13 @@ AI Investigator Copilot
 
 ## Navigation
 
+## Navigation
+
 ⬅️ **Previous:** [Investigation Workflows](../01-network-intelligence/05-investigation-workflows/README.md)
 
-➡️ **Next:** [Network Intelligence Platform](../README.md)
+➡️ **Next:** [AI Investigator Copilot Reference Architecture](./reference-architecture/README.md)
+
+🏠 **Back to Showcase Home:** [Financial Crime Analytics Showcase](../README.md)
 
 ---
 
