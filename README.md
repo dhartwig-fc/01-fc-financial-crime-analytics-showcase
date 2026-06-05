@@ -178,13 +178,85 @@ This repository is actively being developed as a showcase of Financial Crime Ana
 
 Additional capabilities, visualisations and investigation journeys will be added over time.
 
-## Capability Journey
+## Repository Navigation
 
-1. [Network Intelligence](01-network-intelligence/)
-2. [TBML Analytics](02-tbml-analytics/)
-3. [Correspondent Banking Analytics](03-correspondent-banking-analytics/)
-4. [Capital Markets Analytics](04-capital-markets-analytics/)
-5. [AI Investigator Copilot](05-ai-investigator-copilot/)
+### Start Here
+
+| Repository | Description |
+|------------|-------------|
+| **01 Network Intelligence** | Foundation capability covering Entity Resolution, Relationship Discovery, Beneficial Ownership, Network Risk Assessment and AI-enabled investigations. |
+| **02 TBML Analytics** | Trade-Based Money Laundering analytics including over-invoicing, under-invoicing, commodity pricing intelligence and trade risk scoring. |
+| **03 Correspondent Banking Analytics** | Correspondent banking risk analytics, nested banking detection, payment flow intelligence and respondent risk assessment. |
+| **04 Capital Markets Analytics** | Market abuse, insider dealing, trade surveillance and capital markets intelligence capabilities. |
+| **05 AI Investigator Copilot** | AI-enabled investigator workflows, alert triage, case summarisation and investigation support. |
+
+---
+
+## Repository Navigation
+
+### Recommended Learning Path
+
+```text
+START
+  ↓
+01 Network Intelligence
+  ↓
+02 TBML Analytics
+  ↓
+03 Correspondent Banking Analytics
+  ↓
+04 Capital Markets Analytics
+  ↓
+05 AI Investigator Copilot
+  ↓
+END-TO-END FINANCIAL CRIME INTELLIGENCE PLATFORM
+```
+
+---
+
+### Start Here
+
+➡️ **Begin with Network Intelligence**
+
+Network Intelligence establishes the core intelligence foundation including:
+
+- Entity Resolution
+- Relationship Discovery
+- Beneficial Ownership
+- Network Risk Assessment
+- Investigator Intelligence Workflows
+
+These capabilities underpin all downstream analytics libraries.
+
+**Start Here:** [01 Network Intelligence](./01-network-intelligence)
+
+---
+
+### Capability Navigation
+
+| Sequence | Capability |
+|-----------|------------|
+| 01 | [Network Intelligence](./01-network-intelligence) |
+| 02 | [TBML Analytics](./02-tbml-analytics) |
+| 03 | [Correspondent Banking Analytics](./03-correspondent-banking-analytics) |
+| 04 | [Capital Markets Analytics](./04-capital-markets-analytics) |
+| 05 | [AI Investigator Copilot](./05-ai-investigator-copilot) |
+
+---
+
+### Intelligence Progression
+
+```text
+Network Intelligence
+        ↓
+Trade Intelligence (TBML)
+        ↓
+Payment Intelligence (Correspondent Banking)
+        ↓
+Market Intelligence (Capital Markets)
+        ↓
+AI-Augmented Investigations
+```
 
 ---
 
