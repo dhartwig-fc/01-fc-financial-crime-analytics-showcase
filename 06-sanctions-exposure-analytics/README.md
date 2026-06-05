@@ -301,7 +301,7 @@ The capability combines Network Intelligence, graph analytics and investigative 
 
 ### Downstream Capability
 
-➡️ [AI Investigator Copilot](../06-ai-investigator-copilot/README.md)
+➡️ [AI Investigator Copilot](../05-ai-investigator-copilot/README.md)
 
 ---
 
