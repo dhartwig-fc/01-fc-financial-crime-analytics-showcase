@@ -306,7 +306,7 @@ Alerts are supported by explainable intelligence rather than black-box scoring.
 
 TBML001 demonstrates how Network Intelligence, market pricing data and trade analytics can be combined to identify potentially suspicious over-invoiced trade transactions.
 
-![TBML001 Over Invoicing Pattern](../images/tbl-patterns/tbml001-over-invoicing-pattern.png)
+![TBML001 Over Invoicing Pattern](../images/tbml-patterns/tbml001-over-invoicing-pattern.png)
 
 The pattern combines:
 
