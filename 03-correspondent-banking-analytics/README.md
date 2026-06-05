@@ -22,7 +22,7 @@ The following example demonstrates how Correspondent Banking Analytics identifie
 
 ### CBA001 – Nested Correspondent Banking Exposure
 
-![CBA001 Nested Correspondent Banking Exposure](images/CBA001_Nested_Correspondent_Banking_Exposure.png)
+![CBA001 Nested Correspondent Banking Exposure](../images/correspondent-banking-patterns/CBA001_Nested_Correspondent_Banking_Exposure.png)
 
 ---
 
