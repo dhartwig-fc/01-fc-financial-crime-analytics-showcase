@@ -305,7 +305,7 @@ AI Investigator Copilot
 
 ⬅️ **Previous:** [Network Risk Assessment](../04-network-risk-assessment/README.md)
 
-➡️ **Next:** [AI Investigator Copilot](../06-ai-investigator-copilot/README.md)
+➡️ **Next:** [AI Investigator Copilot](../05-ai-investigator-copilot/README.md)
 
 ---
 
