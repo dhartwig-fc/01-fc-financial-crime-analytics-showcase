@@ -190,7 +190,9 @@ Correspondent Banking Analytics
 Correspondent Intelligence
         ↓
 Sanctions Exposure Analytics
+        ↓
 AI Investigator Copilot
+        ↓
 Investigation Workflows
 ```
 
