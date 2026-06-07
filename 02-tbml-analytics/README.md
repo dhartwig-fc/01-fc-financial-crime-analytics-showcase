@@ -16,7 +16,7 @@ The result is a Trade Intelligence capability that supports investigation workfl
 
 ## Visual Intelligence Pattern
 
-![TBML Trade Intelligence Analytics](../images/tbml-patterns/tbml-trade-intelligence-journey.png)
+![TBML Trade Intelligence Analytics](../images/tbml-patterns/tbml-analytics-capability-architecture.png)
 
 ---
 
