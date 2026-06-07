@@ -18,33 +18,34 @@ The result is a Correspondent Banking Intelligence capability that supports inve
 
 ## Visual Intelligence Pattern
 
-The following example demonstrates how Correspondent Banking Analytics identifies hidden exposure within nested correspondent banking structures.
+The following example demonstrates how Correspondent Banking Analytics identifies payment flows routed through high-risk correspondent banking corridors that may be used to obscure origin, destination, ownership, or sanctions exposure.
 
-### CBA001 – Nested Correspondent Banking Exposure
+### CBA008 – High-Risk Corridor Exposure
 
-![CBA001 – Nested Correspondent Banking Exposure](../images/correspondent-banking-patterns/High_Risk_Exposure_Corridor_Pattern.png)
+![CBA008 – High-Risk Corridor Exposure](../images/correspondent-banking-patterns/CBA008_High_Risk_Corridor_Exposure_Pattern.png)
 
 ---
 
 ## Intelligence Question
 
-> Which payment flows traverse indirect or hidden correspondent banking relationships that expose the institution to elevated financial crime, sanctions, or regulatory risk?
+> Are payment flows being routed through high-risk jurisdictions, intermediary correspondent banks, or complex cross-border payment corridors to conceal beneficial ownership, evade sanctions controls, or disguise the true origin and destination of funds?
 
 ---
 
 ## Pattern Objective
 
-Identify nested correspondent banking structures that provide indirect access to the international financial system and reveal hidden exposure to elevated-risk institutions, jurisdictions, sanctioned entities, and complex payment corridors.
+Identify payment activity routed through high-risk correspondent banking corridors that may indicate financial crime exposure, sanctions evasion, hidden ownership structures, or layering activity.
 
 The capability seeks to identify:
 
-- Hidden correspondent relationships
-- Indirect banking access arrangements
-- Nested banking structures
-- High-risk jurisdiction exposure
+- High-risk payment corridors
+- Complex multi-hop payment routes
+- Indirect correspondent banking relationships
+- Hidden beneficiary institutions
 - Sanctions exposure pathways
-- Correspondent concentration risk
-- Complex payment routing networks
+- Jurisdictional risk concentration
+- Unusual routing behaviour
+- Obscured ownership and control structures
 
 ---
 
@@ -75,13 +76,15 @@ The capability seeks to identify:
 
 ## How It Works
 
-The capability analyses payment flows, correspondent banking relationships, intermediary institutions, and respondent banks to construct multi-hop financial institution networks.
+The capability analyses payment flows, correspondent banking relationships, intermediary institutions, jurisdiction intelligence, and beneficiary institutions to construct multi-hop correspondent banking networks.
 
-Network analytics identify indirect correspondent relationships and nested banking arrangements that may obscure the true origin or destination of funds.
+Network analytics identify indirect correspondent relationships, hidden routing pathways, and complex payment corridors that may obscure the true origin, destination, ownership, or control of funds.
 
-Exposure analytics evaluate associated institutions, jurisdictions, counterparties, and payment corridors to identify elevated-risk relationships and potential sanctions exposure.
+Jurisdictional intelligence evaluates exposure to sanctioned regions, high-risk countries, regulatory watchlists, and elevated-risk payment routes.
 
-The resulting intelligence provides investigators with visibility into hidden banking relationships that would otherwise remain difficult to identify through traditional transaction monitoring approaches.
+Exposure analytics assess institutions, counterparties, beneficial ownership structures, and payment corridors to identify elevated-risk relationships and potential sanctions exposure.
+
+The resulting intelligence provides investigators with visibility into hidden payment routing structures and correspondent banking exposure that would otherwise remain difficult to identify through traditional transaction monitoring approaches.
 
 ---
 
@@ -89,13 +92,15 @@ The resulting intelligence provides investigators with visibility into hidden ba
 
 The capability generates:
 
-- Nested correspondent banking intelligence
-- Hidden institution exposure intelligence
-- High-risk payment corridor intelligence
-- Sanctions exposure indicators
-- Correspondent concentration risk assessments
-- Indirect beneficiary exposure intelligence
-- Financial institution network intelligence
+- High-Risk Corridor Alerts
+- Jurisdiction Exposure Intelligence
+- Correspondent Network Exposure Maps
+- Sanctions Routing Indicators
+- Beneficial Ownership Exposure Intelligence
+- Cross-Border Risk Intelligence
+- Payment Corridor Intelligence
+- Institution Exposure Profiles
+- Correspondent Concentration Assessments
 
 ---
 
@@ -104,11 +109,12 @@ The capability generates:
 Investigators use the intelligence to:
 
 - Assess correspondent banking exposure
-- Understand payment routing structures
-- Identify hidden banking relationships
+- Understand complex payment routing structures
+- Identify hidden correspondent relationships
+- Detect high-risk jurisdiction exposure
 - Support enhanced due diligence investigations
-- Investigate elevated-risk payment activity
-- Prioritise sanctions-related reviews
+- Investigate sanctions-related payment activity
+- Prioritise elevated-risk payment corridors
 - Escalate significant exposure scenarios
 
 ---
@@ -117,19 +123,19 @@ Investigators use the intelligence to:
 
 ### Improved Risk Visibility
 
-Provides transparency into indirect correspondent relationships and hidden banking exposure.
+Provides transparency into indirect correspondent relationships, payment corridors, and hidden banking exposure.
 
 ### Enhanced Regulatory Compliance
 
-Supports correspondent banking oversight and sanctions compliance obligations.
+Supports correspondent banking oversight, sanctions compliance, and regulatory obligations.
 
 ### Faster Investigations
 
-Provides investigators with pre-built relationship intelligence and exposure context.
+Provides investigators with pre-built relationship intelligence, jurisdiction context, and exposure analytics.
 
 ### Improved Risk Prioritisation
 
-Enables resources to focus on the highest-risk correspondent banking relationships.
+Enables resources to focus on the highest-risk correspondent banking relationships and payment corridors.
 
 ### Better Decision-Making
 
@@ -186,25 +192,6 @@ Correspondent Intelligence
 Sanctions Exposure Analytics
 AI Investigator Copilot
 Investigation Workflows
-
----
-
-## Intelligence Flow
-
-```text
-Network Intelligence
-        ↓
-Institution Resolution
-        ↓
-Payment Intelligence
-        ↓
-Correspondent Banking Analytics
-        ↓
-Correspondent Intelligence
-        ↓
-Sanctions Exposure Analytics
-AI Investigator Copilot
-Investigation Workflows
 ```
 
 ---
@@ -220,13 +207,13 @@ Institution Resolution
         ↓
 Network Risk Assessment
         ↓
+High-Risk Corridor Exposure
+        ↓
+Correspondent Intelligence
+        ↓
 Investigation Workflows
         ↓
 Case Intelligence
-        ↓
-Correspondent Banking Analytics
-        ↓
-Correspondent Intelligence
 ```
 
 ---
@@ -243,11 +230,10 @@ Network Intelligence explains:
 
 Correspondent Banking Analytics transforms that understanding into actionable Correspondent Intelligence and answers:
 
-> Which payment routes create hidden exposure?
+> Which payment corridors create elevated financial crime risk?
 
-> Which correspondent relationships elevate financial crime risk?
+> Which jurisdictions increase sanctions exposure?
 
-> Which institutions create sanctions exposure?
+> Which correspondent banking routes conceal ownership, control, or destination?
 
-The resulting Correspondent Intelligence becomes a downstream input into sanctions investigations, investigator workflows, and future AI-enabled financial crime operations.
-```
+The resulting Correspondent Intelligence becomes a downstream input into sanctions investigations, investigator workflows, enhanced due diligence processes, and future AI-enabled financial crime operations.
