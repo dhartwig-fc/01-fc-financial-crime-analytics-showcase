@@ -336,6 +336,8 @@ to generate a structured Trade Intelligence Profile supporting investigator deci
 
 ➡️ [Capital Markets Analytics](../04-capital-markets-analytics/README.md)
 
+➡️ [Sanctions Exposure Analytics](../06-sanctions-exposure-analytics/README.md)
+
 ➡️ [AI Investigator Copilot](../05-ai-investigator-copilot/README.md)
 
 ---
