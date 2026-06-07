@@ -1,35 +1,40 @@
 # 🌍 Sanctions Exposure Analytics
 
-## Overview
+## Executive Summary
 
 Sanctions Exposure Analytics demonstrates how Financial Institutions can move beyond traditional sanctions screening and identify hidden sanctions exposure through ownership analysis, network intelligence, maritime analytics, trade controls monitoring and sanctions evasion detection.
 
-The capability combines entity resolution, beneficial ownership analysis, relationship discovery and network analytics to uncover indirect sanctions exposure that may not be identified through conventional name screening approaches.
+The capability combines Entity Resolution, Beneficial Ownership Intelligence, Relationship Discovery, Maritime Intelligence and Network Analytics to uncover indirect sanctions exposure that may not be identified through conventional sanctions screening approaches.
+
+Unlike traditional sanctions screening solutions that focus primarily on direct sanctions matches, Sanctions Exposure Analytics provides explainable intelligence capable of identifying hidden ownership structures, indirect exposure relationships and sanctions evasion indicators across customer, trade and maritime ecosystems.
+
+The result is a Sanctions Intelligence capability that supports investigation workflows, case intelligence generation and future AI-enabled investigative operations.
 
 ---
 
-## Business Problem
+## Visual Intelligence Pattern
 
-Traditional sanctions screening solutions focus primarily on direct matches against sanctions lists.
+### SAN002 – Shadow Fleet Operations
 
-However, sanctions risk frequently exists through:
+The following example demonstrates how Sanctions Exposure Analytics extends traditional sanctions screening by combining ownership analysis, network intelligence, maritime analytics and exposure scoring.
 
-- Indirect ownership structures
-- Beneficial ownership concealment
-- Shell companies
-- Nominee arrangements
-- Shadow fleet operations
-- Maritime sanctions evasion
-- Trade control violations
-- Complex corporate networks
+Shadow Fleet Operations represent one of the most complex sanctions evasion typologies currently observed across global trade and maritime networks.
 
-These risks often remain undetected when organisations rely solely on name screening technologies.
+The typology demonstrates how indirect ownership structures, vessel behaviour, maritime logistics networks and sanctions exposure relationships can be combined to conceal beneficial ownership and facilitate sanctions evasion.
+
+![SAN002 Shadow Fleet Operations](../images/sanctions-exposure-patterns/SAN002_Shadow_Fleet_Operations.png)
 
 ---
 
-## Prototype Objective
+## Intelligence Question
 
-The objective of this capability is to demonstrate how analytics can:
+> Is this vessel, ownership structure, customer, counterparty or trade network indirectly exposed to sanctioned parties despite no direct sanctions match?
+
+---
+
+## Pattern Objective
+
+The capability seeks to:
 
 - Identify hidden sanctions exposure
 - Detect ownership concealment structures
@@ -42,99 +47,50 @@ The objective of this capability is to demonstrate how analytics can:
 
 ---
 
-## Core Capability Areas
+## Capability Dependencies
 
-### Sanctions Screening Intelligence
-
-Enhances traditional screening by combining list-based screening results with contextual risk indicators.
-
-### Ownership & Control Analytics
-
-Identifies beneficial ownership structures and hidden control relationships linked to sanctioned entities.
-
-### Network Exposure Analytics
-
-Uses graph analytics to discover indirect sanctions exposure through customers, counterparties and ownership networks.
-
-### Maritime Risk Analytics
-
-Identifies sanctions exposure associated with:
-
-- Vessel ownership
-- Vessel management
-- Flag changes
-- AIS manipulation
-- Ship-to-ship transfers
-- High-risk ports
-
-### Trade Controls Analytics
-
-Analyses:
-
-- Commodity movements
-- Export controls
-- Dual-use goods
-- Trade corridors
-- Restricted jurisdictions
-
-### Sanctions Evasion Detection
-
-Identifies patterns commonly associated with sanctions circumvention activities.
+| Capability | Purpose |
+|------------|----------|
+| Entity Resolution | Resolve customers, counterparties, vessels and ownership entities |
+| Relationship Discovery | Identify hidden sanctions relationships |
+| Beneficial Ownership Intelligence | Trace ownership and control structures |
+| Network Risk Assessment | Quantify exposure risk |
+| Maritime Intelligence | Analyse vessel behaviour and sanctions indicators |
+| Trade Exposure Intelligence | Assess commodity and trade-control exposure |
 
 ---
 
-## Example Workflow
+## Downstream Capabilities Enabled
+
+- AI Investigator Copilot
+- Investigation Workflows
+- Case Intelligence
+- Enhanced Due Diligence
+- Regulatory Reporting
+- Enterprise Risk Management
+- Financial Crime Intelligence Platforms
+
+---
+
+## Intelligence Flow
 
 ```text
-Customer / Counterparty
-            ↓
-Sanctions Screening
-            ↓
-Entity Resolution
-            ↓
-Beneficial Ownership Analysis
-            ↓
-Relationship Discovery
-            ↓
-Network Exposure Assessment
-            ↓
-Maritime & Trade Analysis
-            ↓
-Exposure Scoring
-            ↓
-Investigator Escalation
+Network Intelligence
+        ↓
+Sanctions Exposure Analytics
+        ↓
+Sanctions Intelligence
+        ↓
+AI Investigator Copilot
+        ↓
+Investigation Workflows
+        ↓
+Case Intelligence
 ```
-## Visual Intelligence Pattern
-
-The following example demonstrates how Sanctions Exposure Analytics extends traditional sanctions screening by combining ownership analysis, network intelligence, maritime analytics and exposure scoring.
-
-### SAN002 – Shadow Fleet Operations
-
-Shadow Fleet Operations represent one of the most complex sanctions evasion typologies currently observed across global trade and maritime networks.
-
-The typology demonstrates how indirect ownership structures, vessel behaviour, maritime logistics networks and sanctions exposure relationships can be combined to conceal beneficial ownership and facilitate sanctions evasion.
-
-![SAN002 Shadow Fleet Operations](../images/sanctions-exposure-patterns/SAN002_Shadow_Fleet_Operations.png)
-
-
-### Intelligence Question
-
-> Is this vessel, ownership structure or trade network indirectly exposed to sanctioned parties despite no direct sanctions match?
-
-### Intelligence Produced
-
-- Ownership Exposure Intelligence
-- Maritime Risk Intelligence
-- Network Exposure Intelligence
-- Trade Exposure Intelligence
-- Sanctions Exposure Scores
-- Investigation Recommendations
 
 ---
 
-## FC-03 Network Intelligence Dependencies
-
-Sanctions Exposure Analytics consumes intelligence generated by the Network Intelligence capability stack.
+## Intelligence Dependency Chain
 
 ```text
 Entity Resolution
@@ -145,145 +101,83 @@ Beneficial Ownership Intelligence
         ↓
 Network Risk Assessment
         ↓
-Investigation Workflow Intelligence
+Maritime Intelligence
+        ↓
+Trade Exposure Intelligence
         ↓
 Sanctions Exposure Analytics
-```
-
-### Key Dependencies
-
-| Network Capability | Purpose |
-|------------|------------|
-| Entity Resolution | Resolve customers, counterparties and ownership entities |
-| Relationship Discovery | Identify hidden sanctions relationships |
-| Beneficial Ownership Analysis | Trace ownership structures |
-| Network Risk Assessment | Quantify exposure risk |
-| Investigation Workflow Intelligence | Produce explainable case intelligence |
-
----
-
-# Capability Evolution Roadmap
-
-| Version | Capability | Description | Commentary |
-|----------|------------|-------------|-------------|
-| V1 | Sanctions Screening Analytics | Basic sanctions list matching and alert generation. | Traditional sanctions screening capability focused on direct sanctions matches. |
-| V2 | Ownership Exposure Analytics | Incorporates beneficial ownership analysis and indirect ownership identification. | Extends sanctions controls beyond direct name matching. |
-| V3 | Network Exposure Analytics | Graph analytics identify hidden sanctions relationships and exposure chains. | Introduces network intelligence concepts into sanctions investigations. |
-| V4 | Maritime Risk Analytics | Detects vessel-related sanctions exposure and maritime sanctions evasion indicators. | Supports shadow fleet investigations and vessel ownership analysis. |
-| V5 | Trade Controls Analytics | Analyses trade activity, commodities and export control exposure. | Expands capability into trade controls and sanctions compliance. |
-| V6 | Sanctions Evasion Detection Platform | Combines ownership, network, maritime and trade intelligence into unified exposure scoring. | Enables proactive detection of sanctions circumvention activities. |
-| V7 | Enterprise Sanctions Intelligence Platform | Integrated enterprise sanctions exposure management and investigative intelligence capability. | Strategic end-state vision for enterprise sanctions operations. |
-
----
-
-## Current Capability Status
-
-| Capability | Status |
-|------------|---------|
-| V1 Sanctions Screening Analytics | ✅ Complete |
-| V2 Ownership Exposure Analytics | ✅ Complete |
-| V3 Network Exposure Analytics | ✅ Complete |
-| V4 Maritime Risk Analytics | 🔄 Planned |
-| V5 Trade Controls Analytics | 🔄 Planned |
-| V6 Sanctions Evasion Detection Platform | 🔄 Planned |
-| V7 Enterprise Sanctions Intelligence Platform | 🔄 Vision |
-
----
-
-## Capability Evolution
-
-```text
-V1  Sanctions Screening
-            ↓
-V2  Ownership Exposure Analytics
-            ↓
-V3  Network Exposure Analytics
-            ↓
-V4  Maritime Risk Analytics
-            ↓
-V5  Trade Controls Analytics
-            ↓
-V6  Sanctions Evasion Detection
-            ↓
-V7  Enterprise Sanctions Intelligence Platform
+        ↓
+Sanctions Intelligence
 ```
 
 ---
 
-## Operational User Interface Roadmap
+## Portfolio Position
 
-| Version | User Interface Capability | Description |
-|----------|--------------------------|-------------|
-| V1 | Screening Alerts Dashboard | Direct sanctions match review. |
-| V2 | Ownership Investigation Workspace | Beneficial ownership analysis. |
-| V3 | Network Exposure Dashboard | Interactive sanctions relationship visualisation. |
-| V4 | Maritime Intelligence Workspace | Vessel and maritime investigation analytics. |
-| V5 | Trade Controls Workspace | Commodity and trade corridor analytics. |
-| V6 | Exposure Investigation Console | Unified sanctions exposure investigations. |
-| V7 | Enterprise Sanctions Command Centre | Enterprise-wide sanctions intelligence platform. |
+Sanctions Exposure Analytics consumes intelligence generated by the Network Intelligence capability stack and combines ownership intelligence, relationship intelligence, maritime intelligence and trade intelligence to identify hidden sanctions exposure.
+
+The capability transforms ownership, vessel, customer and trade activity into structured Sanctions Intelligence suitable for investigation workflows, case management systems and AI-enabled investigative operations.
 
 ---
 
-## User Experience Evolution
+## Intelligence Produced
 
-```text
-V1  Screening Alerts
-            ↓
-V2  Ownership Analysis
-            ↓
-V3  Network Exposure Analytics
-            ↓
-V4  Maritime Intelligence
-            ↓
-V5  Trade Controls Analytics
-            ↓
-V6  Exposure Investigation Console
-            ↓
-V7  Enterprise Sanctions Command Centre
-```
+The capability generates:
+
+- Ownership Exposure Intelligence
+- Maritime Risk Intelligence
+- Network Exposure Intelligence
+- Trade Exposure Intelligence
+- Sanctions Exposure Intelligence
+- Beneficial Ownership Assessments
+- Vessel Exposure Assessments
+- Trade Controls Intelligence
+- Exposure Risk Scores
+- Investigation Recommendations
 
 ---
 
-### Example Typologies
+## Business Benefits
+
+### Hidden Exposure Detection
+
+Identifies indirect sanctions exposure that traditional sanctions screening may fail to detect.
+
+### Enhanced Investigations
+
+Provides investigators with explainable intelligence supporting sanctions investigations.
+
+### Reduced False Positives
+
+Uses contextual intelligence to prioritise meaningful sanctions risks.
+
+### Improved Regulatory Defensibility
+
+Supports regulatory obligations through evidence-based intelligence and explainable exposure assessments.
+
+### Enhanced Risk Understanding
+
+Provides visibility into ownership structures, trade relationships and maritime networks.
+
+### AI-Ready Intelligence
+
+Produces structured intelligence suitable for AI-assisted investigative workflows.
+
+---
+
+## Example Typologies
 
 | ID | Typology | Focus Area |
 |-----|----------|------------|
-| 📘 SAN001 | Beneficial Ownership Evasion | Concealed ownership and control structures |
-| 🚢 SAN002 | Shadow Fleet Operations | Maritime sanctions evasion and vessel networks |
-| 🌍 SAN003 | Transshipment Evasion | Jurisdiction and routing concealment |
-| 🏢 SAN004 | Front Companies & Shell Networks | Corporate concealment structures |
-| 🕸️ SAN005 | Indirect Sanctions Exposure Networks | Hidden exposure through relationships |
-| 📦 SAN006 | Trade-Based Sanctions Evasion | Trade controls and commodity exposure |
-| ⚙️ SAN007 | Export Controls & Dual-Use Goods Evasion | Export control violations |
-| 🚩 SAN008 | Maritime Concealment & Vessel Deception | AIS manipulation and vessel behaviour |
-| 🔗 SAN009 | Complex Ownership & Control Structures | Multi-layer ownership networks |
-
-**Key Capabilities Demonstrated**
-
-- Entity Resolution
-- Beneficial Ownership Analysis
-- Relationship Discovery
-- Maritime Intelligence
-- Network Risk Assessment
-- Exposure Scoring
-- Investigation Workflow Intelligence
-
-**Example Intelligence Produced**
-
-- Hidden ownership structures
-- Sanctioned beneficial ownership exposure
-- Ship-to-ship transfer detection
-- High-risk port activity
-- Maritime sanctions evasion indicators
-- Exposure risk scoring
-
----
-
-## Strategic Vision
-
-Sanctions Exposure Analytics demonstrates the evolution from traditional sanctions screening towards intelligence-led sanctions investigations capable of identifying hidden ownership, control and exposure relationships across customer, trade and maritime ecosystems.
-
-The capability combines Network Intelligence, graph analytics and investigative workflows to provide explainable sanctions intelligence that supports regulatory compliance and proactive sanctions risk management.
+| SAN001 | Beneficial Ownership Evasion | Concealed ownership and control structures |
+| SAN002 | Shadow Fleet Operations | Maritime sanctions evasion and vessel networks |
+| SAN003 | Transshipment Evasion | Jurisdiction and routing concealment |
+| SAN004 | Front Companies & Shell Networks | Corporate concealment structures |
+| SAN005 | Indirect Sanctions Exposure Networks | Hidden exposure through relationships |
+| SAN006 | Trade-Based Sanctions Evasion | Trade controls and commodity exposure |
+| SAN007 | Export Controls & Dual-Use Goods Evasion | Export control violations |
+| SAN008 | Maritime Concealment & Vessel Deception | AIS manipulation and vessel behaviour |
+| SAN009 | Complex Ownership & Control Structures | Multi-layer ownership networks |
 
 ---
 
@@ -293,11 +187,9 @@ The capability combines Network Intelligence, graph analytics and investigative 
 
 ⬅️ [Capital Markets Analytics](../04-capital-markets-analytics/README.md)
 
-### Upstream Dependencies
+### Upstream Dependency
 
 🔗 [Network Intelligence](../01-network-intelligence/README.md)
-
-🔗 [Investigation Workflow Intelligence](../01-network-intelligence/05-investigation-workflows/README.md)
 
 ### Downstream Capability
 
@@ -309,4 +201,6 @@ The capability combines Network Intelligence, graph analytics and investigative 
 
 Traditional sanctions screening identifies direct sanctions matches.
 
-Sanctions Exposure Analytics identifies hidden ownership, control and network relationships that reveal indirect sanctions exposure, sanctions evasion activity and emerging sanctions risk that would otherwise remain undetected.
+Sanctions Exposure Analytics identifies hidden ownership, control, trade and network relationships that reveal indirect sanctions exposure, sanctions evasion activity and emerging sanctions risks that would otherwise remain undetected.
+
+The capability transforms raw ownership, maritime and trade data into explainable Sanctions Intelligence that supports investigations, case intelligence generation and future AI-enabled financial crime operations.
