@@ -272,62 +272,63 @@ These capabilities underpin all downstream analytics libraries.
 | 06 | [AI Investigator Copilot](./05-ai-investigator-copilot) |
 
 ---
-
-### Intelligence Progression
-
-```text
-Network Intelligence
-        ↓
-Trade Intelligence (TBML)
-        ↓
-Payment Intelligence (Correspondent Banking)
-        ↓
-Market Intelligence (Capital Markets)
-        ↓
-Exposure Intelligence (Sanctions)
-        ↓
-AI-Augmented Investigations
-```
-
----
-
 ## Showcase Highlights
 
-The showcase demonstrates how intelligence-led capabilities can be applied across multiple Financial Crime domains using a common analytical and investigative framework.
+The showcase demonstrates how intelligence-led capabilities can be applied across multiple Financial Crime domains using a common analytical, network intelligence and investigative framework.
 
-Featured capabilities include:
+### Network Intelligence Foundation
 
-- NI002 Relationship Discovery and Network Intelligence
-- TBML001 Trade-Based Money Laundering Detection
-- CBA001 Nested Correspondent Banking Exposure
-- CM004 Securities Layering Analytics
-- SAN001 Ownership Evasion Detection
-- SAN002 Shadow Fleet Operations
-- AI Investigator Copilot
+The Network Intelligence capability stack provides the foundational intelligence layer used across all downstream analytics domains.
 
-Together these capabilities demonstrate how network intelligence, analytics, exposure assessment and artificial intelligence can be combined to support modern Financial Crime operations.
+- NI001 Entity Resolution
+- NI002 Relationship Discovery
+- NI003 Beneficial Ownership Intelligence
+- NI004 Network Risk Assessment
+- NI005 Investigation Workflow Intelligence
+
+### Financial Crime Analytics Domains
+
+The showcase demonstrates how specialised analytics libraries consume Network Intelligence to generate domain-specific risk and investigative intelligence.
+
+- TBML001 Over-Invoicing Intelligence Pattern
+- CBA008 High-Risk Corridor Exposure Pattern
+- CM004 Securities Layering Network Pattern
+- SAN002 Shadow Fleet Operations Pattern
+
+### AI-Augmented Investigations
+
+The AI Investigator Copilot demonstrates how intelligence generated across multiple analytics domains can be consolidated into explainable investigator workflows.
+
+- AIC001 AI Investigator Copilot
 
 ---
 
-## Financial Crime Intelligence Journey
+### Portfolio Intelligence Journey
 
 ```text
-Entity Resolution
+NI001 Entity Resolution
         ↓
-Relationship Discovery
+NI002 Relationship Discovery
         ↓
-Beneficial Ownership Intelligence
+NI003 Beneficial Ownership Intelligence
         ↓
-Trade Intelligence
+NI004 Network Risk Assessment
         ↓
-Payment Intelligence
+NI005 Investigation Workflow Intelligence
         ↓
-Market Intelligence
+TBML001 Trade Intelligence
         ↓
-Exposure Intelligence
+CBA008 Payment Intelligence
         ↓
-AI-Assisted Investigation
+CM004 Market Intelligence
+        ↓
+SAN002 Sanctions Intelligence
+        ↓
+AIC001 AI-Augmented Investigations
 ```
+
+Together these capabilities demonstrate how Network Intelligence, Financial Crime Analytics, Sanctions Exposure Analytics and AI-Augmented Investigations can be combined to create an intelligence-led Financial Crime operating model capable of supporting modern investigation, risk assessment and decision-making workflows.
+
 
 ---
 
