@@ -186,6 +186,8 @@ Sanctions Exposure Analytics
 AI Investigator Copilot
         ↓
 Investigation Workflows
+        ↓
+Case Intelligence
 ```
 
 ---
@@ -201,11 +203,11 @@ Beneficial Ownership Intelligence
         ↓
 Network Risk Assessment
         ↓
-Case Intelligence
+Trading Relationship Intelligence
         ↓
 Capital Markets Analytics
         ↓
-Capital Markets Intelligence
+Market Abuse Intelligence
 ```
 
 ---
