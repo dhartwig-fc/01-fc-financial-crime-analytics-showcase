@@ -162,11 +162,11 @@ Correspondent Banking Analytics therefore represents a critical intelligence lay
 
 ### Downstream Intelligence Consumers
 
+➡️ [Capital Markets Analytics](../04-capital-markets-analytics)
+
 ➡️ [Sanctions Exposure Analytics](../06-sanctions-exposure-analytics)
 
 ➡️ [AI Investigator Copilot](../05-ai-investigator-copilot)
-
-➡️ [Capital Markets Analytics](../04-capital-markets-analytics)
 
 ---
 
