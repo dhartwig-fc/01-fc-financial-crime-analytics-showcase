@@ -22,7 +22,7 @@ The following example demonstrates how Capital Markets Analytics identifies secu
 
 ### CM004 – Securities Layering Network
 
-![CM004 Securities Layering Network](images/CM004_Securities_Layering_Network.png)
+![CM004 Securities Layering Network](../images/capital-markets-patterns/CM004_Securities_Layering_Network_Pattern.png)
 
 ---
 
