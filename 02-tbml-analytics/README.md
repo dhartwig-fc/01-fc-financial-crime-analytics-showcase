@@ -308,6 +308,8 @@ TBML001 demonstrates how Network Intelligence, market pricing data and trade ana
 
 ![TBML001 Over Invoicing Pattern](../images/tbml-patterns/tbml001-over-invoicing-pattern.png)
 
+tbml-trade-intelligence-journey.png
+
 The pattern combines:
 
 - Commercial invoice intelligence
