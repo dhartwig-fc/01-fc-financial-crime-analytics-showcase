@@ -348,10 +348,6 @@ to generate a structured Trade Intelligence Profile supporting investigator deci
 ```text
 Network Intelligence
         ↓
-Investigation Workflows
-        ↓
-Case Intelligence
-        ↓
 TBML Analytics
         ↓
 Trade Intelligence
@@ -360,7 +356,13 @@ Correspondent Banking Analytics
         ↓
 Capital Markets Analytics
         ↓
+Sanctions Exposure Analytics
+        ↓
 AI Investigator Copilot
+        ↓
+Investigation Workflows
+        ↓
+Case Intelligence
 ```
 
 ---
@@ -376,13 +378,15 @@ Beneficial Ownership Intelligence
         ↓
 Network Risk Assessment
         ↓
+TBML Analytics
+        ↓
+Trade Intelligence
+        ↓
 Investigation Workflows
         ↓
 Case Intelligence
         ↓
-TBML Analytics
-        ↓
-Trade Intelligence
+AI Investigator Copilot
 ```
 
 ---
