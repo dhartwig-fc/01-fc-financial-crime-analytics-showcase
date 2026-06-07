@@ -181,19 +181,19 @@ Correspondent Banking Analytics therefore represents a critical intelligence lay
 ```text
 Network Intelligence
         ↓
-Institution Resolution
-        ↓
-Payment Intelligence
-        ↓
 Correspondent Banking Analytics
         ↓
 Correspondent Intelligence
+        ↓
+Capital Markets Analytics
         ↓
 Sanctions Exposure Analytics
         ↓
 AI Investigator Copilot
         ↓
 Investigation Workflows
+        ↓
+Case Intelligence
 ```
 
 ---
@@ -207,15 +207,15 @@ Relationship Discovery
         ↓
 Institution Resolution
         ↓
+Beneficial Ownership Intelligence
+        ↓
 Network Risk Assessment
         ↓
-High-Risk Corridor Exposure
+High-Risk Corridor Intelligence
+        ↓
+Correspondent Banking Analytics
         ↓
 Correspondent Intelligence
-        ↓
-Investigation Workflows
-        ↓
-Case Intelligence
 ```
 
 ---
