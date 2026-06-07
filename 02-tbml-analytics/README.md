@@ -357,7 +357,9 @@ TBML Analytics
 Trade Intelligence
         ↓
 Correspondent Banking Analytics
+        ↓
 Capital Markets Analytics
+        ↓
 AI Investigator Copilot
 ```
 
