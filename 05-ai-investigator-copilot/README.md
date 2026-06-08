@@ -34,7 +34,7 @@ The capability is designed to augment investigators rather than replace investig
 
 ## Position Within The Financial Crime Analytics Platform
 
-```text
+```
 Network Intelligence
         ↓
 Financial Crime Analytics
