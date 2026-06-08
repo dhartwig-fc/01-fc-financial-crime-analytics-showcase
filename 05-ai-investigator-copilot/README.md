@@ -104,9 +104,6 @@ The copilot consumes structured analytical outputs and transforms them into inve
 ## Repository Structure
 
 ```text
-## Repository Structure
-
-```text
 05-ai-investigator-copilot
 │
 ├── reference-architecture
