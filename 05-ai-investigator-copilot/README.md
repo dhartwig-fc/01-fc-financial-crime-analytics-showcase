@@ -211,15 +211,175 @@ AI supports investigator decision-making but does not replace investigator judge
 
 ## Future Roadmap
 
-Future enhancements include:
+## Understanding The Future Enhancements
 
-- Retrieval-Augmented Generation (RAG)
-- Multi-agent investigation workflows
-- Case management integration
-- SAR narrative generation
-- Dynamic investigative questioning
-- Investigation recommendation engines
-- Enterprise LLM governance integration
+The current AI Investigator Copilot transforms analytical outputs into investigator-ready intelligence products.
+
+The future roadmap extends this capability beyond intelligence generation and towards a continuously learning, intelligence-led investigation platform.
+
+### Retrieval-Augmented Generation (RAG)
+
+RAG allows the Copilot to retrieve information from approved internal knowledge sources before generating responses.
+
+Examples include:
+
+- Investigation procedures
+- Internal policies
+- Regulatory guidance
+- Historical cases
+- Typology libraries
+- Financial crime playbooks
+
+#### Benefit
+
+Investigators receive answers grounded in organisational knowledge rather than relying solely on Large Language Model reasoning.
+
+This improves accuracy, consistency and explainability.
+
+---
+
+### Multi-Agent Investigation Workflows
+
+Future versions of the platform may contain multiple specialist AI agents working together.
+
+Examples include:
+
+- Threat Intelligence Agents
+- Network Intelligence Agents
+- TBML Intelligence Agents
+- Sanctions Intelligence Agents
+- Case Intelligence Agents
+
+An orchestration layer coordinates the activities of these specialist agents.
+
+#### Benefit
+
+Complex investigations can be broken into specialist analytical tasks that execute simultaneously, reducing investigator effort and increasing intelligence coverage.
+
+---
+
+### Case Management Integration
+
+The Copilot can be integrated directly into investigation case management platforms.
+
+Examples include:
+
+- Case creation
+- Workflow updates
+- Evidence attachment
+- Investigation documentation
+- Case closure support
+
+#### Benefit
+
+Investigators remain within existing operational workflows while benefiting from AI-generated intelligence products.
+
+This reduces manual administration and accelerates case progression.
+
+---
+
+### SAR Narrative Generation
+
+The platform can automatically draft Suspicious Activity Report narratives using analytical findings and investigation outcomes.
+
+Generated narratives may include:
+
+- Subject summaries
+- Risk explanations
+- Supporting evidence
+- Transaction analysis
+- Network intelligence findings
+
+#### Benefit
+
+Significantly reduces the time required to prepare regulatory filings while improving consistency and quality.
+
+Human investigators remain responsible for final review and submission.
+
+---
+
+### Dynamic Investigative Questioning
+
+Rather than simply generating reports, the Copilot can actively assist investigative thinking.
+
+Examples include:
+
+- Suggested next questions
+- Missing evidence identification
+- Alternative hypotheses
+- Investigative recommendations
+- Risk validation prompts
+
+#### Benefit
+
+The Copilot becomes an investigation partner rather than a document generation tool.
+
+This helps investigators explore risk more effectively and avoid investigative blind spots.
+
+---
+
+### Investigation Recommendation Engines
+
+The platform can learn from historical investigations and recommend appropriate next actions.
+
+Examples include:
+
+- Additional intelligence checks
+- Escalation recommendations
+- Relationship analysis requests
+- Enhanced due diligence actions
+- Regulatory reporting triggers
+
+#### Benefit
+
+Investigators receive guidance based on previous successful investigations, improving consistency across teams.
+
+---
+
+### Enterprise LLM Governance Integration
+
+Future deployments can integrate with enterprise AI governance frameworks.
+
+Examples include:
+
+- Prompt governance
+- Model governance
+- Approval workflows
+- Audit logging
+- Output monitoring
+- Risk controls
+
+#### Benefit
+
+Ensures AI capabilities remain explainable, auditable, compliant and suitable for regulated financial crime environments.
+
+---
+
+## What This Means
+
+Today the AI Investigator Copilot generates intelligence products.
+
+Tomorrow it becomes an intelligent investigation platform capable of:
+
+```text
+Collecting Intelligence
+        ↓
+Understanding Context
+        ↓
+Coordinating Specialist Agents
+        ↓
+Supporting Investigative Decisions
+        ↓
+Generating Intelligence Products
+        ↓
+Learning From Outcomes
+        ↓
+Improving Future Investigations
+```
+
+The long-term vision is not simply AI-generated reports.
+
+The vision is a continuously learning, intelligence-led investigation ecosystem that combines analytics, external intelligence, organisational knowledge and investigator expertise into a single operational capability.
 
 ---
 
