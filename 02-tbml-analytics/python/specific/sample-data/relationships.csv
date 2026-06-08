@@ -1,0 +1,4 @@
+relationship_id,source_entity_id,target_entity_id,relationship_type,relationship_confidence_score,related_party_trade_flag,shared_owner_flag,shared_director_flag,relationship_risk_score
+REL001,ENT001,ENT002,Beneficial Owner,87,True,True,True,88
+REL002,ENT001,ENT003,Ownership,84,True,True,False,82
+REL003,ENT005,ENT004,Trade,42,False,False,False,25

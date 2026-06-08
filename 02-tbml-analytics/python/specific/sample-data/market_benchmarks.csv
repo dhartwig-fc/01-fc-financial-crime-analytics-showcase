@@ -1,0 +1,3 @@
+benchmark_id,commodity_code,benchmark_unit_price,benchmark_value,benchmark_currency,benchmark_confidence_score,benchmark_date,source_reliability_score,comparable_trade_count
+BMK001,851762,1700,1700000,USD,86,2026-02-10,88,42
+BMK002,842890,11500,1150000,USD,91,2026-02-12,90,61

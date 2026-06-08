@@ -1,0 +1,6 @@
+entity_id,entity_name,entity_type,incorporation_country,operating_country,industry_sector,risk_score,risk_band
+ENT001,ABC Imports Ltd,Company,United Kingdom,United Kingdom,Industrial Equipment,72,High
+ENT002,XYZ Trading LLC,Company,United Arab Emirates,United Arab Emirates,Electronics Trading,81,High
+ENT003,Global Holdings FZE,Company,United Arab Emirates,United Arab Emirates,Holding Company,78,High
+ENT004,Normal Machinery GmbH,Company,Germany,Germany,Machinery Manufacturing,28,Low
+ENT005,Standard Imports Ltd,Company,United Kingdom,United Kingdom,Industrial Equipment,35,Low

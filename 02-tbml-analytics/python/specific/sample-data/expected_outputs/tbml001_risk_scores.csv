@@ -1,0 +1,3 @@
+transaction_id,customer_id,counterparty_id,variance_pct,risk_score,risk_band
+TRD001,CUST001,CP001,47.05882352941176,94,Critical
+TRD002,CUST002,CP002,2.608695652173913,14,Low

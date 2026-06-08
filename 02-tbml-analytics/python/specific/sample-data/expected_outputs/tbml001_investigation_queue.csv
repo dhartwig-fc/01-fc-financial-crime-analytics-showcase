@@ -1,0 +1,2 @@
+alert_id,transaction_id,customer_id,counterparty_id,invoice_value,benchmark_value,variance_pct,risk_score,risk_band,alert_flag,priority,recommended_action
+ALT001,TRD001,CUST001,CP001,2500000,1700000,47.05882352941176,94,Critical,True,Priority 1,Enhanced Due Diligence
