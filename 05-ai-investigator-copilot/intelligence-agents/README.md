@@ -476,6 +476,37 @@ Investigator
 
 ---
 
+## Navigation
+
+### AI Investigator Copilot
+
+- [AI Investigator Copilot](../README.md)
+- [Reference Architecture](../reference-architecture/README.md)
+- [Governance](../governance/README.md)
+- [Evaluation Framework](../evaluation-framework/README.md)
+- [Prompt Patterns](../prompt-patterns/README.md)
+- [Implementation Patterns](../implementation-patterns/README.md)
+
+### Investigation Workflows
+
+- [Investigation Support Flow](../investigation-support-flow/README.md)
+- [Alert Rationale Generation](../investigation-support-flow/01-alert-rationale-generation/README.md)
+- [Investigator Summary Generation](../investigation-support-flow/02-investigator-summary-generation/README.md)
+- [Evidence Pack Generation](../investigation-support-flow/03-evidence-pack-generation/README.md)
+- [Intelligence Report Generation](../investigation-support-flow/04-intelligence-report-generation/README.md)
+- [Case Package Generation](../investigation-support-flow/05-case-package-generation/README.md)
+- [Conversational Copilot](../investigation-support-flow/06-conversational-copilot/README.md)
+
+### Intelligence Agents
+
+- [Network Intelligence Agent](./network-intelligence-agent/README.md)
+- [TBML Intelligence Agent](./tbml-intelligence-agent/README.md)
+- [Correspondent Banking Intelligence Agent](./correspondent-banking-agent/README.md)
+- [Capital Markets Intelligence Agent](./capital-markets-agent/README.md)
+- [Sanctions Intelligence Agent](./sanctions-agent/README.md)
+- [Case Intelligence Agent](./case-intelligence-agent/README.md)
+- [Threat Intelligence Agent](./threat-intelligence-agent/README.md)
+
 # Key Message
 
 The Threat Intelligence Agent is the bridge between the external world and the Financial Crime Intelligence Platform.
