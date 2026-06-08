@@ -1,0 +1,2 @@
+intelligence_output_id,alert_id,output_type,summary,products_generated
+INT001,ALT001,TBML001 Intelligence Report,Invoice inflation detected with related-party indicators and elevated trade corridor risk.,Investigator Brief; Evidence Pack; Risk Assessment; Case Summary

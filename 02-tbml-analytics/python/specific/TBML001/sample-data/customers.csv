@@ -1,0 +1,3 @@
+customer_id,entity_id,customer_name,customer_risk_score,customer_risk_band,expected_monthly_volume,actual_monthly_volume,country_of_operation,industry_sector,related_party_trade_flag
+CUST001,ENT001,ABC Imports Ltd,72,High,900000,2500000,United Kingdom,Industrial Equipment,True
+CUST002,ENT005,Standard Imports Ltd,35,Low,1200000,1180000,United Kingdom,Industrial Equipment,False
