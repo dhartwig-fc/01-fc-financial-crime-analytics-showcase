@@ -515,7 +515,20 @@ Future enhancements may include:
 - [AI Investigator Copilot](../../README.md)
 - [Reference Architecture](../../reference-architecture/README.md)
 - [Governance](../../governance/README.md)
+
+### Investigation Support Flow
+
+- [01 Alert Rationale Generation](../01-alert-rationale-generation/README.md)
+- [02 Investigator Summary Generation](../02-investigator-summary-generation/README.md)
+- [03 Evidence Pack Generation](../03-evidence-pack-generation/README.md)
+- [04 Intelligence Report Generation](../04-intelligence-report-generation/README.md)
 - [05 Case Package Generation](../05-case-package-generation/README.md)
+
+### Agent Architecture
+
+- [Threat Intelligence Agent](../../threat-intelligence-agent/README.md)
+- [Case Intelligence Agent](../../case-intelligence-agent/README.md)
+- [Investigation Orchestrator](../../investigation-orchestrator/README.md)
 
 ---
 
