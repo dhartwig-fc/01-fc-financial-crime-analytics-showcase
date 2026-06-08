@@ -158,7 +158,6 @@ Conversational Copilot
         ▼
 Investigator
 ```
-```
 
 ---
 
@@ -277,12 +276,111 @@ By converting analytical findings into explainable intelligence products, the ca
 - [Capital Markets Analytics](../04-capital-markets-analytics/README.md)
 - [Sanctions Exposure Analytics](../06-sanctions-exposure-analytics/README.md)
 
+## Recommended Reading Path
+
+For readers exploring the AI Investigator Copilot capability for the first time, the recommended journey is:
+
+```text
+Reference Architecture
+        ↓
+Threat Intelligence Agent
+        ↓
+Case Intelligence Agent
+        ↓
+Orchestration Agent
+        ↓
+Investigation Support Flow
+        ↓
+Conversational Copilot
+        ↓
+AI Investigator Copilot Prototype
+        ↓
+AI Lab
+        ↓
+Emerging Threat Intelligence
+```
+
+### Step 1 – Understand the Architecture
+
+- [Reference Architecture](./reference-architecture/README.md)
+
+### Step 2 – Understand the Intelligence Layer
+
+- [Threat Intelligence Agent](./intelligence-agents/threat-intelligence-agent.md)
+- [Case Intelligence Agent](./intelligence-agents/case-intelligence-agent.md)
+- [Orchestration Agent](./intelligence-agents/orchestration-agent.md)
+
+### Step 3 – Understand the Investigation Workflow
+
+- [01 Alert Triage Generation](./investigation-support-flow/01-alert-triage-generation/README.md)
+- [02 Investigator Summary Generation](./investigation-support-flow/02-investigator-summary-generation/README.md)
+- [03 Evidence Pack Generation](./investigation-support-flow/03-evidence-pack-generation/README.md)
+- [04 Intelligence Report Generation](./investigation-support-flow/04-intelligence-report-generation/README.md)
+- [05 Case Package Generation](./investigation-support-flow/05-case-package-generation/README.md)
+
+### Step 4 – Experience the Investigator Interface
+
+- [06 Conversational Copilot](./investigation-support-flow/06-conversational-copilot/README.md)
+
+### Step 5 – Explore Implementation and Governance
+
+- [Implementation Patterns](./implementation-patterns/README.md)
+- [Prompt Patterns](./prompt-patterns/README.md)
+- [Evaluation Framework](./evaluation-framework/README.md)
+- [Governance Framework](./governance/README.md)
+
+### Step 6 – Explore Prototype Implementation
+
+The AI Investigator Copilot showcase describes the business architecture, intelligence architecture and investigation workflows underpinning the capability.
+
+Readers interested in technical implementation, agent orchestration, prompt engineering, Retrieval-Augmented Generation (RAG), LLM integration and prototype development should continue to:
+
+- [AI Investigator Copilot Prototype Repository](https://github.com/dhartwig-fc/fc-prot02-ai-investigator-copilot)
+
+### Step 7 – Explore AI Research and Experimentation
+
+Readers interested in reusable AI patterns, Agentic AI, MCP, RAG architectures, orchestration frameworks and experimentation environments should continue to:
+
+- [Transformation AI Lab](https://github.com/dhartwig-fc/fc-rm02-transformation-ai-lab)
+
+### Step 8 – Explore Emerging Threat Intelligence
+
+Readers interested in horizon scanning, external intelligence collection, threat monitoring, typology discovery and intelligence-led analytical enhancement should continue to:
+
+- [Emerging Threat Intelligence Repository](https://github.com/dhartwig-fc/fc-08-emerging-threat-intelligence)
+
 ---
 
-## Key Message
+## Capability Journey
+
+```text
+External Intelligence
+        ↓
+Emerging Threat Intelligence
+        ↓
+Threat Intelligence Agent
+        ↓
+Case Intelligence Agent
+        ↓
+Orchestration Agent
+        ↓
+Investigation Support Flow
+        ↓
+Conversational Copilot
+        ↓
+Investigator
+        ↓
+Prototype Implementation
+        ↓
+AI Lab Innovation
+```
+
+### Key Message
 
 The AI Investigator Copilot is not a standalone Large Language Model capability.
 
-It is the operational layer that transforms intelligence, analytics and investigative context into actionable investigator guidance.
+It is the operational intelligence layer that transforms external intelligence, analytical findings, investigative context and organisational knowledge into actionable investigator guidance.
 
-The capability combines Threat Intelligence Agents, Case Intelligence Agents, Orchestration Agents and Investigation Support Workflows to create a fully intelligence-led Financial Crime investigation platform.
+By combining Threat Intelligence Agents, Case Intelligence Agents, Orchestration Agents and Investigation Support Workflows, the capability enables a fully intelligence-led Financial Crime investigation platform that continuously learns, adapts and evolves alongside emerging threats.
+
+---
