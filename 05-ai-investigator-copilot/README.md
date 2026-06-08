@@ -34,7 +34,7 @@ The capability is designed to augment investigators rather than replace investig
 
 ## Position Within The Financial Crime Analytics Platform
 
-```
+```text
 Network Intelligence
         ↓
 Financial Crime Analytics
@@ -116,7 +116,7 @@ The copilot consumes structured analytical outputs and transforms them into inve
 │
 ├── investigation-support-flow
 │   │
-│   ├── 01-alert-triage
+│   ├── 01-alert-triage-generation
 │   ├── 02-investigator-summary-generation
 │   ├── 03-evidence-pack-generation
 │   ├── 04-intelligence-report-generation
@@ -136,23 +136,17 @@ The copilot consumes structured analytical outputs and transforms them into inve
 
 ```text
 External Intelligence
-        │
-        ▼
+        ↓
 Threat Intelligence Agent
-        │
-        ▼
+        ↓
 Case Intelligence Agent
-        │
-        ▼
+        ↓
 Orchestration Agent
-        │
-        ▼
+        ↓
 Investigation Support Flow
-        │
-        ▼
+        ↓
 Conversational Copilot
-        │
-        ▼
+        ↓
 Investigator
 ```
 
@@ -163,6 +157,7 @@ Investigator
 | Component | Purpose |
 |------------|-----------|
 | Reference Architecture | End-to-end AI Copilot architecture |
+| Intelligence Agents | Intelligence collection, reasoning and orchestration |
 | Investigation Support Flow | Intelligence generation workflow |
 | Governance | AI oversight and control framework |
 | Evaluation Framework | Quality and performance assessment |
@@ -234,8 +229,6 @@ The AI Investigator Copilot transforms financial crime analytics from risk detec
 
 By converting analytical findings into explainable intelligence products, the capability reduces investigator effort, improves consistency, accelerates case preparation, and increases the operational value of financial crime analytics investments.
 
----
-
 ## Navigation
 
 ### Core Architecture
@@ -272,6 +265,16 @@ By converting analytical findings into explainable intelligence products, the ca
 - [Correspondent Banking Analytics](../03-correspondent-banking-analytics/README.md)
 - [Capital Markets Analytics](../04-capital-markets-analytics/README.md)
 - [Sanctions Exposure Analytics](../06-sanctions-exposure-analytics/README.md)
+
+### Continue The Journey
+
+Implementation repositories that extend this capability:
+
+- [AI Investigator Copilot Prototype Repository](https://github.com/dhartwig-fc/fc-prot02-ai-investigator-copilot)
+- [Transformation AI Lab](https://github.com/dhartwig-fc/fc-rm02-transformation-ai-lab)
+- [Emerging Threat Intelligence Repository](https://github.com/dhartwig-fc/fc-08-emerging-threat-intelligence)
+
+---
 
 ## Recommended Reading Path
 
@@ -326,11 +329,13 @@ Emerging Threat Intelligence
 - [Evaluation Framework](./evaluation-framework/README.md)
 - [Governance Framework](./governance/README.md)
 
-### Step 6 – Explore Prototype Implementation
+### Step 6 – Explore Technical Implementation
 
-The AI Investigator Copilot showcase describes the business architecture, intelligence architecture and investigation workflows underpinning the capability.
+The AI Investigator Copilot showcase explains the business architecture, intelligence architecture and operational workflows that underpin the capability.
 
-Readers interested in technical implementation, agent orchestration, prompt engineering, Retrieval-Augmented Generation (RAG), LLM integration and prototype development should continue to:
+The repositories below contain prototype implementations, experimentation environments and technical accelerators that demonstrate how the capability can be built using modern AI architectures.
+
+Readers wishing to move from capability design into implementation should continue to the following repositories.
 
 - [AI Investigator Copilot Prototype Repository](https://github.com/dhartwig-fc/fc-prot02-ai-investigator-copilot)
 
@@ -366,13 +371,35 @@ Investigation Support Flow
 Conversational Copilot
         ↓
 Investigator
+```
+
+---
+
+## Continue The Journey
+
+```text
+Capability Design
+        ↓
+AI Investigator Copilot Showcase
         ↓
 Prototype Implementation
         ↓
-AI Lab Innovation
+AI Investigator Copilot Prototype
+        ↓
+AI Experimentation
+        ↓
+Transformation AI Lab
 ```
 
-### Key Message
+The showcase repository explains the capability.
+
+The prototype repository demonstrates how the capability can be implemented.
+
+The AI Lab repository explores future implementation patterns, orchestration approaches, Agentic AI architectures, MCP integration, RAG patterns and experimental concepts.
+
+---
+
+## Key Message
 
 The AI Investigator Copilot is not a standalone Large Language Model capability.
 
@@ -380,4 +407,10 @@ It is the operational intelligence layer that transforms external intelligence, 
 
 By combining Threat Intelligence Agents, Case Intelligence Agents, Orchestration Agents and Investigation Support Workflows, the capability enables a fully intelligence-led Financial Crime investigation platform that continuously learns, adapts and evolves alongside emerging threats.
 
----
+The showcase repository explains the capability.
+
+The prototype repository demonstrates how the capability can be implemented.
+
+The AI Lab repository explores how the capability can evolve.
+
+Together they form a complete journey from intelligence-led design to AI-enabled operational implementation.
