@@ -104,12 +104,22 @@ The copilot consumes structured analytical outputs and transforms them into inve
 ## Repository Structure
 
 ```text
+## Repository Structure
+
+```text
 05-ai-investigator-copilot
 │
 ├── reference-architecture
 │
+├── intelligence-agents
+│   │
+│   ├── threat-intelligence-agent.md
+│   ├── case-intelligence-agent.md
+│   └── orchestration-agent.md
+│
 ├── investigation-support-flow
-│   ├── 01-alert-rationale-generation
+│   │
+│   ├── 01-alert-triage
 │   ├── 02-investigator-summary-generation
 │   ├── 03-evidence-pack-generation
 │   ├── 04-intelligence-report-generation
@@ -123,6 +133,31 @@ The copilot consumes structured analytical outputs and transforms them into inve
 ├── implementation-patterns
 │
 └── prompt-patterns
+```
+
+### Capability Flow
+
+```text
+External Intelligence
+        │
+        ▼
+Threat Intelligence Agent
+        │
+        ▼
+Case Intelligence Agent
+        │
+        ▼
+Orchestration Agent
+        │
+        ▼
+Investigation Support Flow
+        │
+        ▼
+Conversational Copilot
+        │
+        ▼
+Investigator
+```
 ```
 
 ---
