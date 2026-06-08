@@ -406,6 +406,20 @@ The Threat Intelligence Agent may:
 - Identify emerging financial crime threats
 - Support risk model governance
 
+- ## Future Multi-Agent Architecture
+
+Future implementations may incorporate specialist AI agents responsible for:
+
+- Network Intelligence
+- TBML Intelligence
+- Correspondent Banking Intelligence
+- Capital Markets Intelligence
+- Sanctions Intelligence
+- Case Intelligence
+- Threat Intelligence
+
+These agents may be coordinated by an Investigation Orchestrator responsible for assembling intelligence from multiple sources before generating investigator responses.
+
 ### Governance Requirement
 
 Threat intelligence should not automatically modify production detection models.
