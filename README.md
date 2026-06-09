@@ -163,16 +163,30 @@ Identify hidden sanctions exposure, indirect ownership risk and complex sanction
 
 ---
 
-# 06 AI Investigator Copilot
+## 06 AI Investigator Copilot
 
-Artificial Intelligence can enhance investigator productivity and support decision-making across Financial Crime operations.
+The AI Investigator Copilot demonstrates how Financial Crime Analytics and Investigation Intelligence can be transformed into AI-assisted investigator workflows.
+
+Rather than operating as a standalone chatbot, the capability sits on top of analytical models, network intelligence, risk scoring and investigation intelligence outputs, providing investigators with contextual decision support throughout the investigation lifecycle.
+
+The capability illustrates how Artificial Intelligence can accelerate investigations, improve consistency, enhance explainability and increase investigator productivity while maintaining human accountability for investigative decisions.
 
 ### Example Capabilities
 
-- Alert Summarisation
-- Investigation Guidance
-- Relationship Explanation
+- Alert Rationale Generation
+- Investigator Summary Generation
+- Evidence Pack Generation
+- Intelligence Report Generation
+- Case Package Generation
+- Conversational Investigation Copilot
+- Relationship & Network Explanation
 - SAR Narrative Support
+
+### Key Outcome
+
+Transform analytical outputs into operational investigation intelligence and AI-assisted decision support.
+
+➡ Open: 06 AI Investigator Copilot
 
 ### Key Outcome
 
